@@ -63,22 +63,22 @@ config.keys = {
 	},
 	{
 		key = "LeftArrow",
-		mods = "CTRL",
+		mods = "ALT|CTRL",
 		action = wezterm.action({ ActivatePaneDirection = "Left" }),
 	},
 	{
 		key = "RightArrow",
-		mods = "CTRL",
+		mods = "ALT|CTRL",
 		action = wezterm.action({ ActivatePaneDirection = "Right" }),
 	},
 	{
 		key = "UpArrow",
-		mods = "CTRL",
+		mods = "ALT|CTRL",
 		action = wezterm.action({ ActivatePaneDirection = "Up" }),
 	},
 	{
 		key = "DownArrow",
-		mods = "CTRL",
+		mods = "ALT|CTRL",
 		action = wezterm.action({ ActivatePaneDirection = "Down" }),
 	},
 	{
