@@ -20,6 +20,7 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.zig" },
 
   -- frontend
 
