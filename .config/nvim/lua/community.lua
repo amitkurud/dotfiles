@@ -31,7 +31,7 @@ return {
 
   --below is the ui config from astro community
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.color.transparent-nvim" },
+  --{ import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
   -- utilities

@@ -7,10 +7,13 @@ theme = Monokai Remastered
 gtk-tabs-location = top
 gtk-wide-tabs = false 
 gtk-adwaita = false
-font-family = "Hurmit Nerd Font"
-font-size = 10
+font-family = "FiraCode Nerd Font"
+font-size = 11
 shell-integration = zsh 
 copy-on-select = true
+unfocused-split-opacity= 0.4
+cursor-style= bar
+mouse-hide-while-typing = true
 
 keybind = super+ctrl+h=resize_split:left,10
 keybind = super+ctrl+j=resize_split:down,10
