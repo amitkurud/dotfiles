@@ -38,7 +38,7 @@ config.window_decorations = "TITLE | RESIZE"
 config.hide_tab_bar_if_only_one_tab = true
 
 --config.font = wezterm.font("Fira Code Nerd Font Mono", { weight = "Regular", stretch = "Normal", style = "Normal" })
-config.font = wezterm.font("Hack Nerd Font", { stretch = "Normal" }) -- /usr/share/fonts/TTF/HackNerdFont-BoldItalic.ttf, FontConfig
+config.font = wezterm.font("FiraCode Nerd Font", { stretch = "Normal" }) -- /usr/share/fonts/TTF/HackNerdFont-BoldItalic.ttf, FontConfig
 
 config.font_size = 11
 config.window_padding = {
