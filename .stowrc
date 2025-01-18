@@ -1,0 +1,5 @@
+--ignore=.stowrc
+--ignore=.git
+--ignore=.gitignore
+--ignore=LICENSE
+--ignore=README.md
