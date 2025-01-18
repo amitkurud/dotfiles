@@ -24,7 +24,7 @@ return {
 
   -- frontend
 
-  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.html-css" },
@@ -36,7 +36,13 @@ return {
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
   -- utilities
+
+  { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.utility.neodim" },
+  { import = "astrocommunity.completion.cmp-calc" },
   { import = "astrocommunity.completion.blink-cmp" },
+  { import = "astrocommunity.recipes.telescope-lsp-mappings" },
+  { import = "astrocommunity.recipes.telescope-nvchad-theme" },
   { import = "astrocommunity.quickfix.quicker-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
   { import = "astrocommunity.motion.harpoon" },
