@@ -1,1 +1,4 @@
 **/plugins/**
+.config/weechat/logs/**
+.config/weechat/certs/**
+**/irc.conf
