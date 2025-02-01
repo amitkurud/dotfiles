@@ -51,7 +51,7 @@ config.window_background_opacity = 0.8
 
 -- timeout_milliseconds defaults to 1000 and can be omitted
 -- for this example use `setxkbmap -option caps:none` in your terminal.
-config.leader = { key = "`", mods = "CTRL", timeout_milliseconds = 1000 }
+config.leader = { key = "m", mods = "CTRL", timeout_milliseconds = 1000 }
 config.keys = {
 	{
 		key = "h",

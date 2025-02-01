@@ -32,6 +32,9 @@ return {
 
   --below is the ui config from astro community
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.aurora" },
+  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.colorscheme.bamboo-nvim" },
   --{ import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
