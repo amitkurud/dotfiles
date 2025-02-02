@@ -26,3 +26,5 @@ keybind = ctrl+m>s=goto_split:bottom
 keybind = ctrl+m>w=goto_split:top
 keybind = ctrl+m>d=goto_split:right
 keybind = ctrl+m>ctrl+m=text:
+keybind = cmd+m>comma=move_tab:-1
+keybind = cmd+m>period=move_tab:1
