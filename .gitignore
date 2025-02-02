@@ -2,5 +2,6 @@
 .config/weechat/logs/**
 .config/weechat/certs/**
 **/irc.conf
-.config/weechat/plugins.conf
+**/plugins.conf
 **/weechat.log
+.config/weechat/plugins.conf
