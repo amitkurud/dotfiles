@@ -44,6 +44,7 @@ return {
   { import = "astrocommunity.utility.neodim" },
   { import = "astrocommunity.completion.cmp-calc" },
   { import = "astrocommunity.completion.blink-cmp" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.recipes.telescope-nvchad-theme" },
   { import = "astrocommunity.quickfix.quicker-nvim" },

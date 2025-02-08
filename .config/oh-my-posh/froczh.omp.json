@@ -29,7 +29,7 @@
             "home_icon": "\ueb06",
             "style": "agnoster_full"
           },
-          "leading_diamond": "<#000000>\ue0b0",
+          "leading_diamond": "<#01579B>\ue0b0",
           "trailing_diamond": "\ue0b0</>",
           "template": " {{ .Path }} ",
           "foreground": "#ffffff",
