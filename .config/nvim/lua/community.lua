@@ -50,6 +50,7 @@ return {
   { import = "astrocommunity.quickfix.quicker-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
   { import = "astrocommunity.motion.harpoon" },
+  { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
 
