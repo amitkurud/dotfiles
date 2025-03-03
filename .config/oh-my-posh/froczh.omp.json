@@ -15,8 +15,7 @@
           "style": "diamond"
         },
         {
-          "trailing_diamond": "\ue0b0",
-          "template": " \uf0f0 {{ .UserName }}",
+          "template": " \uf0f0 {{ .UserName }} ",
           "foreground": "#ffffff",
           "background": "#40189c",
           "type": "session",
@@ -51,7 +50,6 @@
           "background": "#00C853",
           "type": "git",
           "style": "powerline",
-          "leading_powerline_symbol": "\ue0b2",
           "background_templates": [
             "{{ if or (.Working.Changed) (.Staging.Changed) }}#FFEB3B{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#FFCC80{{ end }}",
@@ -143,7 +141,7 @@
           "style": "diamond"
         },
         {
-          "template": "\udb84\udcfe {{.Context}}{{if .Namespace}} \uf061 {{.Namespace}}{{end}}",
+          "template": " \udb84\udcfe {{.Context}}{{if .Namespace}} \uf061 {{.Namespace}}{{end}} ",
           "foreground": "#ffffff",
           "background": "#29315A",
           "type": "kubectl",

@@ -187,9 +187,9 @@ eval "$(zoxide init zsh)"
 
 #eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/froczh.omp.json)"
 
-eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/froczh.omp.json)"
+#eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/froczh.omp.json)"
 
-#eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 #eval "$(starship init zsh)"
 
 # Load Mcfly
@@ -199,6 +199,7 @@ eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/froczh.omp.json)"
 #export MCFLY_RESULTS_SORT=LAST_RUN
 #eval "$(mcfly init zsh)"
 
+ZSH_THEME="powerlevel10k"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/amit/.sdkman"
 [[ -s "/home/amit/.sdkman/bin/sdkman-init.sh" ]] && source "/home/amit/.sdkman/bin/sdkman-init.sh"
