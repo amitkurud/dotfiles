@@ -4,8 +4,13 @@
   caps
 )
 
+(defvar
+  tap-time 300
+  hold-time 400
+)
+
 (defalias
-  escctrl (tap-hold 300 400 esc lctl)
+  escctrl (tap-hold $tap-time $hold-time esc lmet)
 )
 
 (deflayer base

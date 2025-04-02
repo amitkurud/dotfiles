@@ -36,15 +36,17 @@ return {
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
   --{ import = "astrocommunity.color.transparent-nvim" },
-  --{ import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
 
   -- utilities
-  { import = "astrocommunity.workflow.precognition-nvim" },
+
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.utility.neodim" },
   { import = "astrocommunity.completion.cmp-calc" },
   { import = "astrocommunity.completion.blink-cmp" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.recipes.telescope-lsp-mappings" },
+  { import = "astrocommunity.recipes.telescope-nvchad-theme" },
   { import = "astrocommunity.quickfix.quicker-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
   { import = "astrocommunity.motion.harpoon" },
@@ -52,7 +54,7 @@ return {
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
 
-  --{ import = "astrocommunity.utility.live-server-nvim" },
+  { import = "astrocommunity.utility.live-server-nvim" },
 
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
@@ -60,7 +62,7 @@ return {
 
   { import = "astrocommunity.editing-support.nvim-regexplainer" },
   { import = "astrocommunity.docker.lazydocker" },
-  -- { import = "astrocommunity.search.nvim-spectre" },
+  { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.remote-development.remote-sshfs-nvim" },
 
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
