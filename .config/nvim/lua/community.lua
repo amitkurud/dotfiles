@@ -43,7 +43,6 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.utility.neodim" },
   { import = "astrocommunity.completion.cmp-calc" },
-  { import = "astrocommunity.completion.blink-cmp" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.quickfix.quicker-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
