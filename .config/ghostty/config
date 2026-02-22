@@ -28,3 +28,4 @@ keybind = ctrl+m>d=goto_split:right
 keybind = ctrl+m>ctrl+m=text:
 keybind = ctrl+m>comma=previous_tab
 keybind = ctrl+m>period=next_tab
+

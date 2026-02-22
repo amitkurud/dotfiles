@@ -155,7 +155,7 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
 
-plugins=(ssh-agent minikube kubectl kubectx  evalcache zsh-autosuggestions zsh-nvm sudo history-substring-search gpg-agent git-extra-commands git systemd git-extras git-auto-fetch git-flow git-prompt taskwarrior git-flow-avh github git-hubflow gitignore copyfile copybuffer mvn mysql-macports nanoc ng scala rvm rust sbt salt safe-paste scd scw vim-interaction virtualenv virtualenvwrapper vscode vundle wakeonlan wd web-search wp-cli ruby docker docker-compose sudo pass ant ansible heroku branch bundler gitfast supervisor archlinux dotenv aws battery emoji emoji-clock encode64 extract jenv jhbuild jruby jsontools branch cabal cake firewalld knife knife_ssh kops pip pipenv pj please postgres pow powder python pyenv rails pylint rake systemd thor fancy-ctrl-z last-working-dir rbenv react-native torrent tmux-cssh transfer rake-fast lein lighthouse gas catimg rebar cloudfoundry geeknote man repo redis-cli cp dash cpanm gnu-utils golang gulp grunt grails gradle hanami otp spring zeus zsh-navigation-tools yarn nvm  npm per-directory-history nmap sdk zeus rsync ufw urltools repo ros marked2 vagrant vagrant-prompt gem )
+plugins=(zsh-eza ssh-agent minikube kubectl kubectx sudo history-substring-search gpg-agent git systemd git-extras git-auto-fetch git-flow git-prompt taskwarrior git-flow-avh github git-hubflow gitignore copyfile copybuffer mvn mysql-macports nanoc ng scala rvm rust sbt salt safe-paste scd scw vim-interaction virtualenv virtualenvwrapper vscode vundle wakeonlan wd web-search wp-cli ruby docker docker-compose sudo pass ant ansible heroku branch bundler gitfast supervisor archlinux dotenv aws battery emoji emoji-clock encode64 extract jenv jhbuild jruby jsontools branch cabal cake firewalld knife knife_ssh kops pip pipenv pj please postgres pow powder python pyenv rails pylint rake systemd thor fancy-ctrl-z last-working-dir rbenv react-native torrent tmux-cssh transfer rake-fast lein lighthouse gas catimg rebar cloudfoundry geeknote man repo redis-cli cp dash cpanm gnu-utils golang gulp grunt grails gradle hanami otp spring zeus zsh-navigation-tools yarn nvm  npm per-directory-history nmap sdk zeus rsync ufw urltools repo ros marked2 vagrant vagrant-prompt gem )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -232,11 +232,12 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+nvm use --lts > /dev/null
 
 # pnpm
 export PNPM_HOME="/home/amit/.local/share/pnpm"
