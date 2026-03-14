@@ -3,8 +3,8 @@
 window-theme = ghostty
 #window-decoration = false 
 background-opacity = 0.95
-theme = Monokai Remastered
-#gtk-tabs-location = top
+theme = Brogrammer
+gtk-tabs-location = top
 #gtk-wide-tabs = false 
 #gtk-adwaita = false
 font-family = "CommitMono Nert Font"
