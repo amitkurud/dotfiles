@@ -1,0 +1,180 @@
+2023-01-17 17:56:40		 17:56  l…  lin…  akik   systemctl restart systemd-udevd
+2023-01-17 17:56:40		 17:56  l…  lin…  akik   systemctl restart systemd-udevd
+2023-01-17 17:56:44		 17:56  l…  lin…  n1     already ran that but no luck
+2023-01-17 17:56:44		 17:56  l…  lin…  n1     already ran that but no luck
+2023-01-17 17:57:05		 17:57  l…  lin…  akik   check for syntax errors
+2023-01-17 17:57:05		 17:57  l…  lin…  akik   check for syntax errors
+2023-01-17 17:58:08		 17:58  l…  lin…  n1     the line is very simple
+2023-01-17 17:58:08		 17:58  l…  lin…  n1     the line is very simple
+2023-01-17 17:58:10		 17:58  l…  lin…  n1     ACTION=="add", SUBSYSTEM="input", ATTR{name}="Keychron K6" RUN+="touch /tmp/keychron"
+2023-01-17 17:58:10		 17:58  l…  lin…  n1     ACTION=="add", SUBSYSTEM="input", ATTR{name}="Keychron K6" RUN+="touch /tmp/keychron"
+2023-01-17 17:58:42		 17:58  l…  lin…  akik   SUBSYSTEM=="input" ?
+2023-01-17 17:58:42		 17:58  l…  lin…  akik   SUBSYSTEM=="input" ?
+2023-01-17 17:59:10		 17:59  l…  lin…      *  Helenah lix the subsystem
+2023-01-17 17:59:10		 17:59  l…  lin…      *  Helenah lix the subsystem
+2023-01-17 17:59:18		 17:59  l…  lin…  akik   dirty
+2023-01-17 17:59:18		 17:59  l…  lin…  akik   dirty
+2023-01-17 17:59:28		 17:59  l…  lin…  n1     what should be there?
+2023-01-17 17:59:28		 17:59  l…  lin…  n1     what should be there?
+2023-01-17 17:59:33		 17:59  l…  lin…  akik   two =
+2023-01-17 17:59:33		 17:59  l…  lin…  akik   two =
+2023-01-17 18:00:06		 18:00  l…  lin…  n1     damn
+2023-01-17 18:00:06		 18:00  l…  lin…  n1     damn
+2023-01-17 18:00:48		 18:00  l…  lin…  Hele…  Yes, why are you specifying operators between some of the values and keys but not others?
+2023-01-17 18:00:48		 18:00  l…  lin…  Hele…  Yes, why are you specifying operators between some of the values and keys but not others?
+2023-01-17 18:01:19		 18:01  l…  lin…  n1     ACTION=="add", SUBSYSTEM=="input", ATTR{name}=="Keychron K6", RUN+="touch /tmp/keychron"
+2023-01-17 18:01:19		 18:01  l…  lin…  n1     ACTION=="add", SUBSYSTEM=="input", ATTR{name}=="Keychron K6", RUN+="touch /tmp/keychron"
+2023-01-17 18:01:28		 18:01  l…  lin…  n1     current rule but still no luck
+2023-01-17 18:01:28		 18:01  l…  lin…  n1     current rule but still no luck
+2023-01-17 18:01:55		 18:01  l…  lin…  n1     Helenah: isn't the name a good criteria?
+2023-01-17 18:01:55		 18:01  l…  lin…  n1     Helenah: isn't the name a good criteria?
+2023-01-17 18:02:31		 18:02  l…  lin…  akik   n1: did you get "Keychron K6" from udev?
+2023-01-17 18:02:31		 18:02  l…  lin…  akik   n1: did you get "Keychron K6" from udev?
+2023-01-17 18:04:15		 18:04  l…  lin…  nigh…  Is there a tool out there that lets me easily run a specific process where a particular directory is COW in memory?
+2023-01-17 18:04:15		 18:04  l…  lin…  nigh…  Is there a tool out there that lets me easily run a specific process where a particular directory is COW in memory?
+2023-01-17 18:05:20		 18:05  l…  lin…  n1     akik: yes https://imgur.com/a/ooqj0FN
+2023-01-17 18:05:20		 18:05  l…  lin…  n1     akik: yes https://imgur.com/a/ooqj0FN
+2023-01-17 18:06:03		 18:06  l…  lin…  n1     ^ output from "sudo udevadm info -ap /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/bluetooth/hci0/hci0:8/0005:05AC:024F.0023/input/input63"
+2023-01-17 18:06:03		 18:06  l…  lin…  n1     ^ output from "sudo udevadm info -ap /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/bluetooth/hci0/hci0:8/0005:05AC:024F.0023/input/input63"
+2023-01-17 18:07:02		 18:07  l…  lin…  n1     also...someone uses ATTR and someone ATTRS - whats the difference?
+2023-01-17 18:07:02		 18:07  l…  lin…  n1     also...someone uses ATTR and someone ATTRS - whats the difference?
+2023-01-17 18:07:29		 18:07  l…  lin…  akik   The singular form of udev criteria (KERNEL, SUBSYSTEM, DRIVER, ATTR) only match the device being added, whereas the plural forms (including ATTRS) match the device being added or any of its parent devices.
+2023-01-17 18:07:29		 18:07  l…  lin…  akik   The singular form of udev criteria (KERNEL, SUBSYSTEM, DRIVER, ATTR) only match the device being added, whereas the plural forms (including ATTRS) match the device being added or any of its parent devices.
+2023-01-17 18:07:33		 18:07  l…  lin…  akik   google is good
+2023-01-17 18:07:33		 18:07  l…  lin…  akik   google is good
+2023-01-17 18:07:56		 18:07  l…  lin…  akik   sorry i don't know what's wrong. i've only written a couple of rules
+2023-01-17 18:07:56		 18:07  l…  lin…  akik   sorry i don't know what's wrong. i've only written a couple of rules
+2023-01-17 18:42:25		 18:42  L…  news  news…  [BBC UK] UK conversion therapy ban to include trans people → https://www.bbc.co.uk/news/uk-64304142?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 18:42:25		 18:42  L…  news  news…  [BBC UK] UK conversion therapy ban to include trans people → https://www.bbc.co.uk/news/uk-64304142?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 18:47:05		 18:47  L…  news  news…  [Al Jazeera] Israeli forces kill Palestinian man during ‘shooting attack’ → https://www.aljazeera.com/news/2023/1/17/israeli-forces-kill-palestinian-man-after-shooting-attack
+2023-01-17 18:47:05		 18:47  L…  news  news…  [Al Jazeera] Israeli forces kill Palestinian man during ‘shooting attack’ → https://www.aljazeera.com/news/2023/1/17/israeli-forces-kill-palestinian-man-after-shooting-attack
+2023-01-17 18:48:08		 18:48  L…  news  news…  [CNN Top Stories] See moment Ukrainian soldiers received order to open fire → https://www.cnn.com/videos/world/2023/01/17/ukrainians-suffering-constant-russian-shelling-bahkmut-wedeman-dnt-tsr-vpx.cnn
+2023-01-17 18:48:08		 18:48  L…  news  news…  [CNN Top Stories] See moment Ukrainian soldiers received order to open fire → https://www.cnn.com/videos/world/2023/01/17/ukrainians-suffering-constant-russian-shelling-bahkmut-wedeman-dnt-tsr-vpx.cnn
+2023-01-17 18:48:10		 18:48  L…  news  news…  [CNN Top Stories] Uber CEO speaks to Amanpour about company's support for Ukraine → https://www.cnn.com/videos/tv/2023/01/16/dara-khosrowshahi-amanpour-ukraine-uber-world-economic-forum.cnn
+2023-01-17 18:48:10		 18:48  L…  news  news…  [CNN Top Stories] Uber CEO speaks to Amanpour about company's support for Ukraine → https://www.cnn.com/videos/tv/2023/01/16/dara-khosrowshahi-amanpour-ukraine-uber-world-economic-forum.cnn
+2023-01-17 18:48:12		 18:48  L…  news  news…  [CNN Top Stories] Flu turned deadly within 48 hours for 3-year-old girl. Now her family gets vaccinated every year → https://www.cnn.com/2023/01/17/health/flu-death-explainer-wellness/index.html
+2023-01-17 18:48:12		 18:48  L…  news  news…  [CNN Top Stories] Flu turned deadly within 48 hours for 3-year-old girl. Now her family gets vaccinated every year → https://www.cnn.com/2023/01/17/health/flu-death-explainer-wellness/index.html
+2023-01-17 18:48:14		 18:48  L…  news  news…  [CNN Top Stories] The world has a major debt problem. Is a reset coming? → https://www.cnn.com/2023/01/17/investing/premarket-stocks-trading/index.html
+2023-01-17 18:48:14		 18:48  L…  news  news…  [CNN Top Stories] The world has a major debt problem. Is a reset coming? → https://www.cnn.com/2023/01/17/investing/premarket-stocks-trading/index.html
+2023-01-17 18:48:16		 18:48  L…  news  news…  [CNN Top Stories] Kevin Spacey receives award in Italy, days after UK court appearance → https://www.cnn.com/2023/01/17/entertainment/kevin-spacey-museum-italy-scli-intl/index.html
+2023-01-17 18:48:16		 18:48  L…  news  news…  [CNN Top Stories] Kevin Spacey receives award in Italy, days after UK court appearance → https://www.cnn.com/2023/01/17/entertainment/kevin-spacey-museum-italy-scli-intl/index.html
+2023-01-17 18:48:18		 18:48  L…  news  news…  [CNN Top Stories] Tom Brady on playing future after 31-14 loss to Cowboys: 'It's just going to be one day at a time, truly' → https://www.cnn.com/2023/01/17/sport/tom-brady-retire-buccaneers-playoff-nfl-spt-intl/index.html
+2023-01-17 18:48:18		 18:48  L…  news  news…  [CNN Top Stories] Tom Brady on playing future after 31-14 loss to Cowboys: 'It's just going to be one day at a time, truly' → https://www.cnn.com/2023/01/17/sport/tom-brady-retire-buccaneers-playoff-nfl-spt-intl/index.html
+2023-01-17 18:48:20		 18:48  L…  news  news…  [CNN Top Stories] The rich should pay higher fares to clean up aviation, says Heathrow boss → https://www.cnn.com/2023/01/17/business/air-fares-davos-sustainable-fuel/index.html
+2023-01-17 18:48:20		 18:48  L…  news  news…  [CNN Top Stories] The rich should pay higher fares to clean up aviation, says Heathrow boss → https://www.cnn.com/2023/01/17/business/air-fares-davos-sustainable-fuel/index.html
+2023-01-17 18:51:37		 18:51  L…  news  news…  [New York Times World] Zelensky pushes allies to move faster with aid as fears grow of a new Russian offensive → https://www.nytimes.com/2023/01/17/world/europe/zelensky-pushes-allies-to-move-faster-with-aid-as-fears-grow-of-a-new-russian-offensive.html
+2023-01-17 18:51:37		 18:51  L…  news  news…  [New York Times World] Zelensky pushes allies to move faster with aid as fears grow of a new Russian offensive → https://www.nytimes.com/2023/01/17/world/europe/zelensky-pushes-allies-to-move-faster-with-aid-as-fears-grow-of-a-new-russian-offensive.html
+2023-01-17 18:54:56		 18:54  L…  news  news…  [BBC UK] NFL: Dak Prescott stars as Dallas Cowboys beat Tampa Bay Buccaneers 31-14 → https://www.bbc.co.uk/sport/av/american-football/64306272?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 18:54:56		 18:54  L…  news  news…  [BBC UK] NFL: Dak Prescott stars as Dallas Cowboys beat Tampa Bay Buccaneers 31-14 → https://www.bbc.co.uk/sport/av/american-football/64306272?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 18:58:51		 18:58  L…  news  news…  [Al Jazeera] Honduran activists demand action after killing of water defenders → https://www.aljazeera.com/news/2023/1/17/honduran-activists-demand-action-after-killing-of-water-defenders
+2023-01-17 18:58:51		 18:58  L…  news  news…  [Al Jazeera] Honduran activists demand action after killing of water defenders → https://www.aljazeera.com/news/2023/1/17/honduran-activists-demand-action-after-killing-of-water-defenders
+2023-01-17 19:04:47		 19:04  L…  news  news…  [BBC World] Ukraine War: Zelensky adviser resigns over Dnipro remarks → https://www.bbc.co.uk/news/world-europe-64304310?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:04:47		 19:04  L…  news  news…  [BBC World] Ukraine War: Zelensky adviser resigns over Dnipro remarks → https://www.bbc.co.uk/news/world-europe-64304310?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:06:21		 19:06  L…  news  news…  [CNN US] The rich should pay higher fares to clean up aviation, says Heathrow boss → https://www.cnn.com/2023/01/17/business/air-fares-davos-sustainable-fuel/index.html
+2023-01-17 19:06:21		 19:06  L…  news  news…  [CNN US] The rich should pay higher fares to clean up aviation, says Heathrow boss → https://www.cnn.com/2023/01/17/business/air-fares-davos-sustainable-fuel/index.html
+2023-01-17 19:16:03		 19:16  L…  news  news…  [New York Times World] Belarus Puts Exiled Opposition Leader on Trial for Treason → https://www.nytimes.com/2023/01/17/world/europe/belarus-svetlana-tikhanovskaya.html
+2023-01-17 19:16:03		 19:16  L…  news  news…  [New York Times World] Belarus Puts Exiled Opposition Leader on Trial for Treason → https://www.nytimes.com/2023/01/17/world/europe/belarus-svetlana-tikhanovskaya.html
+2023-01-17 19:19:21		 19:19  L…  news  news…  [BBC UK] Six Nations: Scotland include McConnochie, Healy, Henderson & McDowall in squad → https://www.bbc.co.uk/sport/rugby-union/64306112?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:19:21		 19:19  L…  news  news…  [BBC UK] Six Nations: Scotland include McConnochie, Healy, Henderson & McDowall in squad → https://www.bbc.co.uk/sport/rugby-union/64306112?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:35:31		 19:35  L…  news  news…  [NPR] Imprisoned Iranian-American Siamak Namazi is on a hunger strike in Iran → https://www.npr.org/2023/01/17/1149455671/imprisoned-iranian-american-siamak-namazi-is-on-a-hunger-strike-in-iran
+2023-01-17 19:35:31		 19:35  L…  news  news…  [NPR] Imprisoned Iranian-American Siamak Namazi is on a hunger strike in Iran → https://www.npr.org/2023/01/17/1149455671/imprisoned-iranian-american-siamak-namazi-is-on-a-hunger-strike-in-iran
+2023-01-17 19:40:14		 19:40  L…  news  news…  [BBC World] Zelenska: Not all leaders using influence for good → https://www.bbc.co.uk/news/world-europe-64305880?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:40:14		 19:40  L…  news  news…  [BBC World] Zelenska: Not all leaders using influence for good → https://www.bbc.co.uk/news/world-europe-64305880?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:42:43		 19:42  L…  news  news…  [New York Times US] California Storms Begin to Fade After Run of Atmospheric Rivers → https://www.nytimes.com/2023/01/17/us/california-weather.html
+2023-01-17 19:42:43		 19:42  L…  news  news…  [New York Times US] California Storms Begin to Fade After Run of Atmospheric Rivers → https://www.nytimes.com/2023/01/17/us/california-weather.html
+2023-01-17 19:43:47		 19:43  L…  news  news…  [BBC UK] Australian Open 2023 results: Novak Djokovic, Alexander Zverev advance on day two → https://www.bbc.co.uk/sport/tennis/64302444?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:43:47		 19:43  L…  news  news…  [BBC UK] Australian Open 2023 results: Novak Djokovic, Alexander Zverev advance on day two → https://www.bbc.co.uk/sport/tennis/64302444?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:51:43		 19:51  L…  news  news…  [BBC World] Andrey Medvedev: How Russian mercenary made an icy escape to Norway → https://www.bbc.co.uk/news/world-europe-64303652?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 19:51:43		 19:51  L…  news  news…  [BBC World] Andrey Medvedev: How Russian mercenary made an icy escape to Norway → https://www.bbc.co.uk/news/world-europe-64303652?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:04:23		 20:04  l…  news  news…  [New York Times World] England Is Banning Some Single-Use Plastics. Activists Say It’s a Small Step. → https://www.nytimes.com/2023/01/17/world/europe/england-plastic-ban.html
+2023-01-17 20:04:23		 20:04  l…  news  news…  [New York Times World] England Is Banning Some Single-Use Plastics. Activists Say It’s a Small Step. → https://www.nytimes.com/2023/01/17/world/europe/england-plastic-ban.html
+2023-01-17 20:07:18		 20:07  l…  news  news…  [BBC UK] Madonna announces 40th anniversary greatest hits tour → https://www.bbc.co.uk/news/entertainment-arts-64306753?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:07:18		 20:07  l…  news  news…  [BBC UK] Madonna announces 40th anniversary greatest hits tour → https://www.bbc.co.uk/news/entertainment-arts-64306753?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:07:20		 20:07  l…  news  news…  [BBC UK] Andrey Medvedev: How Russian mercenary made an icy escape to Norway → https://www.bbc.co.uk/news/world-europe-64303652?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:07:20		 20:07  l…  news  news…  [BBC UK] Andrey Medvedev: How Russian mercenary made an icy escape to Norway → https://www.bbc.co.uk/news/world-europe-64303652?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:11:24		 20:11  l…  news  news…  [Al Jazeera] Germany appoints defence chief in time for key Ukraine meeting → https://www.aljazeera.com/news/2023/1/17/boris-pistorius-appointed-as-germanys-new-defence-minister
+2023-01-17 20:11:24		 20:11  l…  news  news…  [Al Jazeera] Germany appoints defence chief in time for key Ukraine meeting → https://www.aljazeera.com/news/2023/1/17/boris-pistorius-appointed-as-germanys-new-defence-minister
+2023-01-17 20:19:32		 20:19  l…  news  news…  [BBC UK] Elon Musk begins trial over Tesla tweet that cost him $20m → https://www.bbc.co.uk/news/world-us-canada-64293744?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:19:32		 20:19  l…  news  news…  [BBC UK] Elon Musk begins trial over Tesla tweet that cost him $20m → https://www.bbc.co.uk/news/world-us-canada-64293744?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:26:44		 20:26  l…  news  news…  [BBC World] Matteo Messina Denaro: How Mafia boss was caught on a visit to a clinic → https://www.bbc.co.uk/news/world-europe-64302105?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:26:44		 20:26  l…  news  news…  [BBC World] Matteo Messina Denaro: How Mafia boss was caught on a visit to a clinic → https://www.bbc.co.uk/news/world-europe-64302105?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:30:19		 20:30  l…  news  news…  [CNN US] Ohio GOP state Sen. Matt Dolan announces US Senate bid to challenge Sherrod Brown → https://www.cnn.com/2023/01/17/politics/matt-dolan-us-senate-ohio/index.html
+2023-01-17 20:30:19		 20:30  l…  news  news…  [CNN US] Ohio GOP state Sen. Matt Dolan announces US Senate bid to challenge Sherrod Brown → https://www.cnn.com/2023/01/17/politics/matt-dolan-us-senate-ohio/index.html
+2023-01-17 20:31:21		 20:31  l…  news  news…  [BBC UK] Royal Mail accused of prioritising parcels over letters → https://www.bbc.co.uk/news/business-64306928?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:31:21		 20:31  l…  news  news…  [BBC UK] Royal Mail accused of prioritising parcels over letters → https://www.bbc.co.uk/news/business-64306928?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 20:45:29		 20:45  l…  news  news…  [CNN Top Stories] 14-year-old girl charged with murder in the shooting of 11-year-old boy in Dallas → https://www.cnn.com/2023/01/17/us/teen-murder-charge-dallas/index.html
+2023-01-17 20:45:29		 20:45  l…  news  news…  [CNN Top Stories] 14-year-old girl charged with murder in the shooting of 11-year-old boy in Dallas → https://www.cnn.com/2023/01/17/us/teen-murder-charge-dallas/index.html
+2023-01-17 20:45:31		 20:45  l…  news  news…  [CNN Top Stories] 'Sober bar' owner says she's struggling to meet unprecedented demands → https://www.cnn.com/videos/business/2023/01/17/nyc-sober-bar-owner-cnntm-cprog-vpx.cnn
+2023-01-17 20:45:31		 20:45  l…  news  news…  [CNN Top Stories] 'Sober bar' owner says she's struggling to meet unprecedented demands → https://www.cnn.com/videos/business/2023/01/17/nyc-sober-bar-owner-cnntm-cprog-vpx.cnn
+2023-01-17 20:45:33		 20:45  l…  news  news…  [CNN Top Stories] Madonna announces 'The Celebration Tour' → https://www.cnn.com/2023/01/17/entertainment/madonna-celebration-tour/index.html
+2023-01-17 20:45:33		 20:45  l…  news  news…  [CNN Top Stories] Madonna announces 'The Celebration Tour' → https://www.cnn.com/2023/01/17/entertainment/madonna-celebration-tour/index.html
+2023-01-17 20:45:35		 20:45  l…  news  news…  [CNN Top Stories] See the first electrified and fastest-accelerating Corvette → https://www.cnn.com/videos/cars/2023/01/17/hybrid-corvette-eray-contd-orig-fj.cnn-business
+2023-01-17 20:45:35		 20:45  l…  news  news…  [CNN Top Stories] See the first electrified and fastest-accelerating Corvette → https://www.cnn.com/videos/cars/2023/01/17/hybrid-corvette-eray-contd-orig-fj.cnn-business
+2023-01-17 20:45:37		 20:45  l…  news  news…  [CNN Top Stories] Ex-roommate of George Santos speaks to CNN This Morning → https://www.cnn.com/videos/politics/2023/01/17/george-santos-former-roommate-gregory-morey-parker-cnntm-vpx.cnn
+2023-01-17 20:45:37		 20:45  l…  news  news…  [CNN Top Stories] Ex-roommate of George Santos speaks to CNN This Morning → https://www.cnn.com/videos/politics/2023/01/17/george-santos-former-roommate-gregory-morey-parker-cnntm-vpx.cnn
+2023-01-17 20:45:39		 20:45  l…  news  news…  [CNN Top Stories] Lisa Marie Presley's memorial planned at Graceland → https://www.cnn.com/2023/01/17/entertainment/lisa-marie-presley-memorial/index.html
+2023-01-17 20:45:39		 20:45  l…  news  news…  [CNN Top Stories] Lisa Marie Presley's memorial planned at Graceland → https://www.cnn.com/2023/01/17/entertainment/lisa-marie-presley-memorial/index.html
+2023-01-17 20:45:41		 20:45  l…  news  news…  [CNN Top Stories] New strain of bird flu kills hundreds of snow geese in Colorado → https://www.cnn.com/2023/01/17/us/hpai-colorado-wild-bird-mortality/index.html
+2023-01-17 20:45:41		 20:45  l…  news  news…  [CNN Top Stories] New strain of bird flu kills hundreds of snow geese in Colorado → https://www.cnn.com/2023/01/17/us/hpai-colorado-wild-bird-mortality/index.html
+2023-01-17 20:45:43		 20:45  l…  news  news…  [CNN Top Stories] Ukrainian presidential adviser resigns over Dnipro missile attack remarks → https://www.cnn.com/europe/live-news/russia-ukraine-war-news-1-17-23/h_61468902ae4b58fc34c465453b794a6c
+2023-01-17 20:45:43		 20:45  l…  news  news…  [CNN Top Stories] Ukrainian presidential adviser resigns over Dnipro missile attack remarks → https://www.cnn.com/europe/live-news/russia-ukraine-war-news-1-17-23/h_61468902ae4b58fc34c465453b794a6c
+2023-01-17 20:45:45		 20:45  l…  news  news…  [CNN Top Stories] Locally caught fish are full of dangerous chemicals called PFAS, study finds → https://www.cnn.com/2023/01/17/health/freshwater-fish-pfas-contamination-wellness/index.html
+2023-01-17 20:45:45		 20:45  l…  news  news…  [CNN Top Stories] Locally caught fish are full of dangerous chemicals called PFAS, study finds → https://www.cnn.com/2023/01/17/health/freshwater-fish-pfas-contamination-wellness/index.html
+2023-01-17 20:55:29		 20:55  l…  news  news…  [New York Times US] Remains of Another Victim of Hurricane Ian Are Found in Florida → https://www.nytimes.com/2023/01/17/us/hurricane-ian-victim-found.html
+2023-01-17 20:55:29		 20:55  l…  news  news…  [New York Times US] Remains of Another Victim of Hurricane Ian Are Found in Florida → https://www.nytimes.com/2023/01/17/us/hurricane-ian-victim-found.html
+2023-01-17 21:04:30		 21:04  l…  news  news…  [New York Times World] A flurry of diplomacy surrounding Ukraine unfolds this week → https://www.nytimes.com/2023/01/17/world/europe/the-ukraine-war-takes-center-stage-at-davos.html
+2023-01-17 21:04:30		 21:04  l…  news  news…  [New York Times World] A flurry of diplomacy surrounding Ukraine unfolds this week → https://www.nytimes.com/2023/01/17/world/europe/the-ukraine-war-takes-center-stage-at-davos.html
+2023-01-17 21:14:51		 21:14  l…  news  news…  [BBC World] Elon Musk begins trial over Tesla tweet that cost him $20m → https://www.bbc.co.uk/news/world-us-canada-64293744?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:14:51		 21:14  l…  news  news…  [BBC World] Elon Musk begins trial over Tesla tweet that cost him $20m → https://www.bbc.co.uk/news/world-us-canada-64293744?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:16:36		 21:16  l…  news  news…  [New York Times World] School Is in Session, Power or Not → https://www.nytimes.com/2023/01/17/world/europe/kyiv-ukraine-wartime-schooling.html
+2023-01-17 21:16:36		 21:16  l…  news  news…  [New York Times World] School Is in Session, Power or Not → https://www.nytimes.com/2023/01/17/world/europe/kyiv-ukraine-wartime-schooling.html
+2023-01-17 21:17:48		 21:17  l…  news  news…  [CNN US] GOP Rep. Jim Banks announces Indiana US Senate campaign → https://www.cnn.com/2023/01/17/politics/jim-banks-indiana-us-senate/index.html
+2023-01-17 21:17:48		 21:17  l…  news  news…  [CNN US] GOP Rep. Jim Banks announces Indiana US Senate campaign → https://www.cnn.com/2023/01/17/politics/jim-banks-indiana-us-senate/index.html
+2023-01-17 21:17:50		 21:17  l…  news  news…  [CNN US] The Chevrolet Corvette E-Ray is the first-ever hybrid Corvette → https://www.cnn.com/2023/01/17/business/chevrolet-corvette-e-ray/index.html
+2023-01-17 21:17:50		 21:17  l…  news  news…  [CNN US] The Chevrolet Corvette E-Ray is the first-ever hybrid Corvette → https://www.cnn.com/2023/01/17/business/chevrolet-corvette-e-ray/index.html
+2023-01-17 21:30:52		 21:30  l…  news  news…  [New York Times US] Matt Dolan, a Republican, Will Challenge Senator Sherrod Brown in Ohio → https://www.nytimes.com/2023/01/17/us/politics/matt-dolan-senate-ohio.html
+2023-01-17 21:30:52		 21:30  l…  news  news…  [New York Times US] Matt Dolan, a Republican, Will Challenge Senator Sherrod Brown in Ohio → https://www.nytimes.com/2023/01/17/us/politics/matt-dolan-senate-ohio.html
+2023-01-17 21:31:31		 21:31  l…  news  news…  [BBC UK] UK weather: Snow and ice causes travel chaos and shuts schools → https://www.bbc.co.uk/news/uk-64301690?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:31:31		 21:31  l…  news  news…  [BBC UK] UK weather: Snow and ice causes travel chaos and shuts schools → https://www.bbc.co.uk/news/uk-64301690?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:31:34		 21:31  l…  news  news…  [BBC UK] Prince Harry's Spare becomes UK's fastest-selling non-fiction book → https://www.bbc.co.uk/news/entertainment-arts-64226729?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:31:34		 21:31  l…  news  news…  [BBC UK] Prince Harry's Spare becomes UK's fastest-selling non-fiction book → https://www.bbc.co.uk/news/entertainment-arts-64226729?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:31:36		 21:31  l…  news  news…  [BBC UK] Matteo Messina Denaro: How Mafia boss was caught on a visit to a clinic → https://www.bbc.co.uk/news/world-europe-64302105?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:31:36		 21:31  l…  news  news…  [BBC UK] Matteo Messina Denaro: How Mafia boss was caught on a visit to a clinic → https://www.bbc.co.uk/news/world-europe-64302105?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:31:37		 21:31  l…  news  news…  [BBC UK] 'Andy Murray and his metal hip still defying the odds after Australian Open win' → https://www.bbc.co.uk/sport/tennis/64302251?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:31:37		 21:31  l…  news  news…  [BBC UK] 'Andy Murray and his metal hip still defying the odds after Australian Open win' → https://www.bbc.co.uk/sport/tennis/64302251?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:34:31		 21:34  l…  news  news…  [CNN Top Stories] Opinion: What this pilot knows about flying in mountainous terrain → https://www.cnn.com/2023/01/17/opinions/nepal-plane-crash-pilot-landing-himalayas-abend/index.html
+2023-01-17 21:34:31		 21:34  l…  news  news…  [CNN Top Stories] Opinion: What this pilot knows about flying in mountainous terrain → https://www.cnn.com/2023/01/17/opinions/nepal-plane-crash-pilot-landing-himalayas-abend/index.html
+2023-01-17 21:34:33		 21:34  l…  news  news…  [CNN Top Stories] Santos' former roommate: He had 'delusions of grandeur' → https://www.cnn.com/2023/01/17/politics/george-santos-former-roommate-cnntv/index.html
+2023-01-17 21:34:33		 21:34  l…  news  news…  [CNN Top Stories] Santos' former roommate: He had 'delusions of grandeur' → https://www.cnn.com/2023/01/17/politics/george-santos-former-roommate-cnntv/index.html
+2023-01-17 21:34:35		 21:34  l…  news  news…  [CNN Top Stories] The Chevrolet Corvette E-Ray is the first-ever hybrid Corvette → https://www.cnn.com/2023/01/17/business/chevrolet-corvette-e-ray/index.html
+2023-01-17 21:34:35		 21:34  l…  news  news…  [CNN Top Stories] The Chevrolet Corvette E-Ray is the first-ever hybrid Corvette → https://www.cnn.com/2023/01/17/business/chevrolet-corvette-e-ray/index.html
+2023-01-17 21:34:37		 21:34  l…  news  news…  [CNN Top Stories] The fan-favorite Glossier You perfume is now available as a deodorant — and we tried it → https://www.cnn.com/cnn-underscored/reviews/glossier-deodorant?iid=CNNUnderscoredHPcontainer
+2023-01-17 21:34:37		 21:34  l…  news  news…  [CNN Top Stories] The fan-favorite Glossier You perfume is now available as a deodorant — and we tried it → https://www.cnn.com/cnn-underscored/reviews/glossier-deodorant?iid=CNNUnderscoredHPcontainer
+2023-01-17 21:34:39		 21:34  l…  news  news…  [CNN Top Stories] The best sales to shop today: Vitamix, Logitech, Olaplex and more → https://www.cnn.com/2023/01/17/cnn-underscored/deals/best-online-sales-right-now?iid=CNNUnderscoredHPcontainer
+2023-01-17 21:34:39		 21:34  l…  news  news…  [CNN Top Stories] The best sales to shop today: Vitamix, Logitech, Olaplex and more → https://www.cnn.com/2023/01/17/cnn-underscored/deals/best-online-sales-right-now?iid=CNNUnderscoredHPcontainer
+2023-01-17 21:48:49		 21:48  l…  news  news…  [Al Jazeera] Ex-Republican hopeful arrested over shootings at Democrats’ homes → https://www.aljazeera.com/news/2023/1/17/ex-republican-hopeful-arrested-over-shootings-at-democrats-homes
+2023-01-17 21:48:49		 21:48  l…  news  news…  [Al Jazeera] Ex-Republican hopeful arrested over shootings at Democrats’ homes → https://www.aljazeera.com/news/2023/1/17/ex-republican-hopeful-arrested-over-shootings-at-democrats-homes
+2023-01-17 21:51:14		 21:51  l…  news  news…  [BBC World] Vietnam politics: Power shift as President Nguyen Xuan Phuc quits → https://www.bbc.co.uk/news/world-asia-64302745?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 21:51:14		 21:51  l…  news  news…  [BBC World] Vietnam politics: Power shift as President Nguyen Xuan Phuc quits → https://www.bbc.co.uk/news/world-asia-64302745?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 22:00:04		 21:59  l…  news  news…  [NPR] A University of Alabama basketball player has been charged with murder → https://www.npr.org/2023/01/17/1149502778/darius-miles-alabama-basketball-shooting-jamea-harris
+2023-01-17 22:00:04		 21:59  l…  news  news…  [NPR] A University of Alabama basketball player has been charged with murder → https://www.npr.org/2023/01/17/1149502778/darius-miles-alabama-basketball-shooting-jamea-harris
+2023-01-17 22:01:01		 22:01  l…  news  news…  [Al Jazeera] UN decries ‘alarming’ rise in Rohingya deaths at sea in 2022 → https://www.aljazeera.com/news/2023/1/17/alarming-rise-in-rohingya-lost-at-sea-in-2022-un-says
+2023-01-17 22:01:01		 22:01  l…  news  news…  [Al Jazeera] UN decries ‘alarming’ rise in Rohingya deaths at sea in 2022 → https://www.aljazeera.com/news/2023/1/17/alarming-rise-in-rohingya-lost-at-sea-in-2022-un-says
+2023-01-17 22:01:04		 22:01  l…  news  news…  [Al Jazeera] Russia’s war in Ukraine has killed ‘more than 9,000 civilians’ → https://www.aljazeera.com/news/2023/1/17/over-9000-civilians-killed-since-the-war-began-ukraine
+2023-01-17 22:01:04		 22:01  l…  news  news…  [Al Jazeera] Russia’s war in Ukraine has killed ‘more than 9,000 civilians’ → https://www.aljazeera.com/news/2023/1/17/over-9000-civilians-killed-since-the-war-began-ukraine
+2023-01-17 22:01:06		 22:01  l…  news  news…  [Al Jazeera] Putinism doesn’t work in the battlefield → https://www.aljazeera.com/opinions/2023/1/17/putinism-doesnt-work-on-the-battlefield
+2023-01-17 22:01:06		 22:01  l…  news  news…  [Al Jazeera] Putinism doesn’t work in the battlefield → https://www.aljazeera.com/opinions/2023/1/17/putinism-doesnt-work-on-the-battlefield
+2023-01-17 22:10:44		 22:10  l…  news  news…  [CNN Top Stories] Democrat reportedly targeted by failed GOP candidate responds to arrest → https://www.cnn.com/videos/us/2023/01/17/new-mexico-solomon-pena-republican-candidate-arrest-shootings-adriann-barboa-cnntm-vpx.cnn
+2023-01-17 22:10:44		 22:10  l…  news  news…  [CNN Top Stories] Democrat reportedly targeted by failed GOP candidate responds to arrest → https://www.cnn.com/videos/us/2023/01/17/new-mexico-solomon-pena-republican-candidate-arrest-shootings-adriann-barboa-cnntm-vpx.cnn
+2023-01-17 22:10:46		 22:10  l…  news  news…  [CNN Top Stories] 'A grotesque mockery': Nick Cave slates attempt by AI to emulate his songs → https://www.cnn.com/2023/01/17/entertainment/nick-cave-ai-scli-intl/index.html
+2023-01-17 22:10:46		 22:10  l…  news  news…  [CNN Top Stories] 'A grotesque mockery': Nick Cave slates attempt by AI to emulate his songs → https://www.cnn.com/2023/01/17/entertainment/nick-cave-ai-scli-intl/index.html
+2023-01-17 22:10:48		 22:10  l…  news  news…  [CNN Top Stories] Apple's new Mac Mini M2 gets you more power for a cheaper $599 — and you can order it now → https://www.cnn.com/cnn-underscored/electronics/mac-mini-m2-m2-pro-pre-order?iid=CNNUnderscoredHPcontainer
+2023-01-17 22:10:48		 22:10  l…  news  news…  [CNN Top Stories] Apple's new Mac Mini M2 gets you more power for a cheaper $599 — and you can order it now → https://www.cnn.com/cnn-underscored/electronics/mac-mini-m2-m2-pro-pre-order?iid=CNNUnderscoredHPcontainer
+2023-01-17 22:10:50		 22:10  l…  news  news…  [CNN Top Stories] The MacBook Pro just got a big upgrade — and you can preorder them now → https://www.cnn.com/cnn-underscored/electronics/macbook-pro-m2-pro-m2-max-pre-order?iid=CNNUnderscoredHPcontainer
+2023-01-17 22:10:50		 22:10  l…  news  news…  [CNN Top Stories] The MacBook Pro just got a big upgrade — and you can preorder them now → https://www.cnn.com/cnn-underscored/electronics/macbook-pro-m2-pro-m2-max-pre-order?iid=CNNUnderscoredHPcontainer
+2023-01-17 22:13:21		 22:13  l…  news  news…  [Al Jazeera] Young Nigerians flock to get voting cards for February election → https://www.aljazeera.com/news/2023/1/17/nigerians-flock-to-get-voting-cards-as-election-looms
+2023-01-17 22:13:21		 22:13  l…  news  news…  [Al Jazeera] Young Nigerians flock to get voting cards for February election → https://www.aljazeera.com/news/2023/1/17/nigerians-flock-to-get-voting-cards-as-election-looms
+2023-01-17 22:15:19		 22:15  l…  news  news…  [BBC World] Prince William reveals who's the best cook at home → https://www.bbc.co.uk/news/uk-64310099?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 22:15:19		 22:15  l…  news  news…  [BBC World] Prince William reveals who's the best cook at home → https://www.bbc.co.uk/news/uk-64310099?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 22:18:49		 22:18  l…  news  news…  [BBC UK] David Carrick: More shocking cases may follow, Braverman warns → https://www.bbc.co.uk/news/uk-64308043?at_medium=RSS&at_campaign=KARANGA
+2023-01-17 22:18:49		 22:18  l…  news  news…  [BBC UK] David Carrick: More shocking cases may follow, Braverman warns → https://www.bbc.co.uk/news/uk-64308043?at_medium=RSS&at_campaign=KARANGA

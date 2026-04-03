@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 S1 Pro 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "AK  S1pro",
+    "nozzle_type": "hardened_steel",
+    "printer_settings_id": "AK  S1pro",
+    "version": "2.3.1.10"
+}

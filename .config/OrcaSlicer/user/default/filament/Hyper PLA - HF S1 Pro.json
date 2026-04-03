@@ -1,0 +1,56 @@
+{
+    "additional_cooling_fan_speed": [
+        "100"
+    ],
+    "compatible_printers": [
+        "Creality CR-10 V2 0.4 nozzle",
+        "Creality CR-10 Max 0.4 nozzle",
+        "Creality Ender-3 V2 0.4 nozzle",
+        "Creality Ender-3 S1 0.4 nozzle",
+        "Creality Ender-3 S1 Pro 0.4 nozzle",
+        "Creality Ender-5 0.4 nozzle",
+        "Creality Ender-5 Plus 0.4 nozzle",
+        "Creality Ender-5 Pro (2019) 0.4 nozzle",
+        "Creality Ender-5S 0.4 nozzle",
+        "Creality Ender-5 S1 0.4 nozzle",
+        "Creality Ender-6 0.4 nozzle",
+        "Creality K1 (0.4 nozzle)",
+        "Creality K1 (0.6 nozzle)",
+        "Creality K1 (0.8 nozzle)",
+        "Creality K1 Max (0.4 nozzle)",
+        "Creality K1 Max (0.6 nozzle)",
+        "Creality K1 Max (0.8 nozzle)"
+    ],
+    "default_filament_colour": [
+        "#8080FF"
+    ],
+    "filament_cost": [
+        "500"
+    ],
+    "filament_max_volumetric_speed": [
+        "32"
+    ],
+    "filament_settings_id": [
+        "Hyper PLA - HF S1 Pro"
+    ],
+    "filament_vendor": [
+        "Retro D"
+    ],
+    "from": "User",
+    "inherits": "Creality Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Hyper PLA - HF S1 Pro",
+    "nozzle_temperature": [
+        "230"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "slow_down_layer_time": [
+        "2"
+    ],
+    "slow_down_min_speed": [
+        "50"
+    ],
+    "version": "1.7.0.0"
+}

@@ -1,0 +1,719 @@
+2023-01-17 16:49:07		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 16:49:07		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 16:49:15		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:07:48		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:07:48		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:07:57		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:08:06		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:08:06		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:08:12		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:09:11		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:09:11		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:09:20		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:09:58		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:09:58		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:10:04		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:11:22		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:11:22		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:11:24	=!=	You can not write text in this buffer
+2023-01-17 17:11:27		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:17:39		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:17:39		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:17:44		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:17:48		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:17:48		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:17:55		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:18:40		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:18:40		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:18:42		Upgrading WeeChat with binary file: "weechat"...
+2023-01-17 17:18:42		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:18:42		Plugins loaded: alias, buflist, charset, exec, fifo, fset, guile, irc, logger, lua, perl, python, relay, ruby, script, spell, tcl, trigger, typing, xfer
+2023-01-17 17:18:42		Upgrade done (0.08s)
+2023-01-17 17:20:11		Option created: plugins.var.group_tools.newsmon.all.general.buffer_full_name = "irc.libera.##news"
+2023-01-17 17:20:11		Option changed: script.scripts.download_enabled = on  (default: off)
+2023-01-17 17:20:11		script: downloading list of scripts...
+2023-01-17 17:20:14		script: 307 scripts for WeeChat 3.7.1
+2023-01-17 17:20:15		python: loading script "/home/amit/.config/weechat/python/autosort.py"
+2023-01-17 17:20:15		python: registered script "autosort", version 3.9 (Flexible automatic (or manual) buffer sorting based on eval expressions.)
+2023-01-17 17:20:16		python: loading script "/home/amit/.config/weechat/python/buffer_autoset.py"
+2023-01-17 17:20:16		python: registered script "buffer_autoset", version 1.2 (Auto-set buffer properties when a buffer is opened)
+2023-01-17 17:20:17		python: loading script "/home/amit/.config/weechat/python/cmd_help.py"
+2023-01-17 17:20:17		python: registered script "cmd_help", version 0.5 (Contextual command line help)
+2023-01-17 17:20:37		Mouse enabled
+2023-01-17 17:20:37		Option changed: irc.server_default.sasl_mechanism = plain
+2023-01-17 17:20:37		Option changed: irc.server_default.sasl_username = "${sec.data.defaultsasluser}"  (default: "")
+2023-01-17 17:20:37		Option changed: irc.server_default.nicks = "${sec.data.defaultnicks}"  (default: "")
+2023-01-17 17:20:37		Option changed: irc.server_default.capabilities = "*"
+2023-01-17 17:20:37		Option changed: irc.server_default.autojoin_dynamic = on  (default: off)
+2023-01-17 17:20:37		irc: server added: bitlbee
+2023-01-17 17:20:37		Option changed: irc.server.bitlbee.sasl_password = "${sec.data.bitlbeepass}"  (default if null: "")
+2023-01-17 17:20:37		irc: server added: libera
+2023-01-17 17:20:37		Option changed: irc.server.libera.sasl_password = "${sec.data.liberachatpass}"  (default if null: "")
+2023-01-17 17:20:37		irc: server added: oftc
+2023-01-17 17:20:37		Option changed: irc.server.oftc.ssl_cert = "%h/ssl/nick.pem"  (default if null: "")
+2023-01-17 17:20:37		Option changed: irc.server.oftc.command_delay = 5  (default if null: 0)
+2023-01-17 17:20:37		irc: server added: ergo_testnet
+2023-01-17 17:20:37		Option changed: weechat.plugin.autoload = "*,!guile,!javascript,!lua,!php,!tcl,!perl,!ruby,!fifo,!xfer"  (default: "*")
+2023-01-17 17:20:37		Option changed: spell.check.default_dict = "en,fr"  (default: "")
+2023-01-17 17:20:37		Option changed: spell.check.suggestions = 3  (default: -1)
+2023-01-17 17:20:37		Option changed: spell.color.suggestion = *green  (default: default)
+2023-01-17 17:20:37		Spell checker enabled
+2023-01-17 17:20:37	=!=	relay: warning: no SSL certificate/key found (option relay.network.ssl_cert_key)
+2023-01-17 17:20:37	=!=	relay: error: relay for "ssl.irc" already exists
+2023-01-17 17:20:37	=!=	relay: error: port "0" is already used
+2023-01-17 17:20:37		Option changed: relay.network.password = "${sec.data.relaypass}"  (default: "")
+2023-01-17 17:20:37		Option created: logger.level.irc = 4  (default: 9)
+2023-01-17 17:20:37		Option created: logger.mask.irc = "%Y/$server/$channel.%m-%d.log"  (default: "")
+2023-01-17 17:20:37		Option changed: fset.color.line_selected_bg1 = default  (default: blue)
+2023-01-17 17:20:37		Option changed: fset.color.name_changed = 229  (default: brown)
+2023-01-17 17:20:37		Option changed: fset.color.name_changed_selected = *229  (default: yellow)
+2023-01-17 17:20:37		Option changed: fset.color.type = 121  (default: green)
+2023-01-17 17:20:37		Option changed: fset.color.type_selected = *121  (default: lightgreen)
+2023-01-17 17:20:37		Option changed: fset.color.value = 31  (default: cyan)
+2023-01-17 17:20:37		Option changed: fset.color.value_changed = 229  (default: brown)
+2023-01-17 17:20:37		Option changed: fset.color.value_changed_selected = *229  (default: yellow)
+2023-01-17 17:20:37		Option changed: fset.color.value_selected = *31  (default: lightcyan)
+2023-01-17 17:20:37		Option changed: fset.look.auto_refresh = "*,!weechat.bar.buflist.size,!plugins.var.buflist.section.*"  (default: "*")
+2023-01-17 17:20:37		Option changed: fset.format.option1 = "${if:${selected_line}?${color:*white}>>:  } ${marked} ${name}  ${type}  ${value2}"  (default: "")
+2023-01-17 17:20:37		Option changed: weechat.bar.fset.conditions = "${buffer.full_name} == fset.fset && ${window.win_height} > 7"  (default: "${buffer.full_name} == fset.fset")
+2023-01-17 17:20:37		Option changed: script.scripts.download_enabled = on  (default: off)
+2023-01-17 17:20:37		autosort: Helper variables:
+2023-01-17 17:20:37		                core_first: ${if:${buffer.full_name}!=core.weechat}
+2023-01-17 17:20:37		             hashless_name: ${info:autosort_replace,#,,${info:autosort_escape,${buffer.name}}}
+2023-01-17 17:20:37		             irc_raw_first: ${if:${buffer.full_name}!=irc.irc_raw}
+2023-01-17 17:20:37		              irc_raw_last: ${if:${buffer.full_name}==irc.irc_raw}
+2023-01-17 17:20:37		    monitors_buffers_first: ${if:${buffer.full_name}!~^core\.(chan|high|news)mon$}
+2023-01-17 17:20:37		          script_or_plugin: ${if:${script_name}?${script_name}:${plugin}}
+2023-01-17 17:20:37		autosort: Sorting rules:
+2023-01-17 17:20:37		    0: ${core_first}
+2023-01-17 17:20:37		    1: ${info:autosort_order,${info:autosort_escape,${script_or_plugin}},core,*,irc,bitlbee,matrix,slack}
+2023-01-17 17:20:37		    2: ${script_or_plugin}
+2023-01-17 17:20:37		    3: ${monitors_buffers_first}
+2023-01-17 17:20:37		    4: ${monitors_buffers_first}
+2023-01-17 17:20:37		    5: ${irc_raw_first}
+2023-01-17 17:20:37		    6: ${server}
+2023-01-17 17:20:37		    7: ${info:autosort_order,${type},server,*,channel,private}
+2023-01-17 17:20:37		    8: ${hashless_name}
+2023-01-17 17:20:37		    9: ${buffer.full_name}
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.weechat.notify = "3"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.irc.server.*.notify = "3"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.relay.relay.list.short_name = "relay"  (default: "")
+2023-01-17 17:20:37		Option changed: plugins.var.python.cmd_help.color_delimiters = "*white"
+2023-01-17 17:20:37		Option changed: plugins.var.python.cmd_help.color_arguments = "121"
+2023-01-17 17:20:37		Option changed: plugins.var.python.cmd_help.color_list = "121"
+2023-01-17 17:20:37		Option changed: plugins.var.python.cmd_help.start_on_load = "on"
+2023-01-17 17:20:37		Option changed: plugins.var.python.cmd_help.stop_on_enter = "off"
+2023-01-17 17:20:37		Trigger "list_tools" created
+2023-01-17 17:20:37		Trigger "list_tools" updated
+2023-01-17 17:20:37	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:20:37		Trigger "list_tools" updated
+2023-01-17 17:20:37		Trigger "group_tools_debug" created
+2023-01-17 17:20:37		Trigger "group_tools_debug" updated
+2023-01-17 17:20:37		Trigger "group_tools_debug" updated
+2023-01-17 17:20:37		Trigger "group_tools" created
+2023-01-17 17:20:37		Trigger "group_tools" updated
+2023-01-17 17:20:37		Trigger "group_tools" updated
+2023-01-17 17:20:37		Trigger "group_tools" updated
+2023-01-17 17:20:37		Custom bar item "sys" added
+2023-01-17 17:20:37		Trigger "refresh_sys_item" created
+2023-01-17 17:20:37		Trigger "refresh_sys_item" updated
+2023-01-17 17:20:37		Trigger "refresh_sys_item" updated
+2023-01-17 17:20:37		Option changed: irc.look.server_buffer = independent  (default: merge_with_core)
+2023-01-17 17:20:37		Trigger "buflist_tools" created
+2023-01-17 17:20:37		Trigger "buflist_tools" updated
+2023-01-17 17:20:37		Trigger "buflist_tools" updated
+2023-01-17 17:20:37		Trigger "buflist_tools" updated
+2023-01-17 17:20:37		Bar "control_buffers" created
+2023-01-17 17:20:37		Bar "control_buffers2" created
+2023-01-17 17:20:37		Option changed: buflist.format.hotlist_highlight = "${color:163}"  (default: "${color:magenta}")
+2023-01-17 17:20:37		Option changed: buflist.format.hotlist_message = "${color:229}"  (default: "${color:brown}")
+2023-01-17 17:20:37		Option changed: buflist.format.hotlist_private = "${color:121}"  (default: "${color:green}")
+2023-01-17 17:20:37		Option changed: buflist.format.buffer = "${if:${bar_item.name}==buflist?${define:my_left_section_contents,${format_number}${eval:${plugins.var.buflist.format.fold}}${indent}${format_nick_prefix}${format_name}${format_lag}${eval:${plugins.var.buflist.format.filter}${plugins.var.buflist.format.relay_count}${plugins.var.buflist.format.extra}}}${define:my_left_section_contents_length,${lengthscr:${my_left_section_contents}}}${define:my_right_section_contents,${format_hotlist}}${define:my_right_section_contents_length,${lengthscr:${my_right_section_contents}}}${if:${type}==server?${color:,31}:${color:default}}${if:${my_left_section_contents_length} > ${plugins.var.buflist.section.left.size}?${cutscr:+${plugins.var.buflist.section.left.size},${if:${type}==server?${color:white}:${color:${weechat.color.chat_prefix_more}}}${weechat.look.prefix_align_more},${my_left_section_contents}}:${my_left_section_contents}${repeat:${calc:${plugins.var.buflist.section.left.size} - ${my_left_section_contents_length}}, }}${if:${my_right_section_contents_length} > ${plugins.var.buflist.section.right.size}?${cutscr:+${plugins.var.buflist.section.right.size},${if:${type}==server?${color:white}:${color:${weechat.color.chat_prefix_more}}}${weechat.look.prefix_align_more},${my_right_section_contents}}:${repeat:${calc:${plugins.var.buflist.section.right.size} - ${my_right_section_contents_length}}, }${my_right_section_contents}}:${define:my_remaining_space,${calc:7-${lengthscr:${name}}}}${define:my_name,${cutscr:7,${\u2026},${name}${repeat:${my_remaining_space}, }}}${if:${window.buffer}==${buffer}?${color:31}${\ue0be}${color:white,31} ${my_name} ${color:reset}${color:31}${\ue0bc}:${color:24}${\ue0be}${color:darkgray,24} ${my_name} ${color:reset}${color:24}${\ue0bc}}}"  (default: "${format_number}${indent}${format_nick_prefix}${color_hotlist}${format_name}")
+2023-01-17 17:20:37		Option changed: buflist.format.buffer_current = "${format_buffer}"  (default: "${color:,blue}${format_buffer}")
+2023-01-17 17:20:37		Option changed: buflist.format.number = "${if:${plugins.var.buflist.item.buffer_number}!=?${if:${current_buffer}?${color:*white}${hide:>,${number}} :${if:${type}==server?${color:black}:${color:239}}${number}${if:${number_displayed}?.: }}}"  (default: "${color:green}${number}${if:${number_displayed}?.: }")
+2023-01-17 17:20:37		Option changed: buflist.format.indent = "${if:${plugins.var.buflist.item.indent}!=?${if:${plugins.var.buflist.look.indent_tree}!=?${color:31}├─:  }}"  (default: "  ")
+2023-01-17 17:20:37		Option changed: buflist.format.name = "${if:${plugins.var.buflist.item.buffer_name}!=?${define:my_name,${if:${type}==server?${if:${plugins.var.buflist.look.real_net_name}!=&&${info:irc_server_isupport_value,${name},NETWORK}!=?${info:irc_server_isupport_value,${name},NETWORK}:${name}}:${name}}}${define:my_name_length,${lengthscr:${my_name}}}${if:${type}==server?${color:white}:${eval:${color_hotlist}}}${if:${buffer.local_variables.start_at}!=?${revscr:${cutscr:+${calc:${my_name_length}-${buffer.local_variables.start_at}},…,${revscr:${my_name}}}}:${my_name}}}"  (default: "${name}")
+2023-01-17 17:20:37		Option changed: buflist.format.hotlist = "${if:${plugins.var.buflist.item.hotlist}!=?${if:${plugins.var.buflist.section.right.size}==1? :${hotlist}}}"  (default: " ${color:green}(${hotlist}${color:green})")
+2023-01-17 17:20:37		Option changed: buflist.format.nick_prefix = "${if:${plugins.var.buflist.item.nick_prefix}!=&&${buflist.look.nick_prefix}!=?${color:31}${nick_prefix}}"  (default: "${color_nick_prefix}${nick_prefix}")
+2023-01-17 17:20:37		Option changed: buflist.format.lag = "${if:${plugins.var.buflist.item.lag}!=?${color:white} [${lag}]}"  (default: " ${color:green}[${color:brown}${lag}${color:green}]")
+2023-01-17 17:20:37		Option changed: plugins.var.buflist.format.fold = "${if:${plugins.var.buflist.item.fold}!=&&${type}==server?${color:black}${if:${buffer.local_variables.fold}==?▼:▲} }"
+2023-01-17 17:20:37		Option changed: plugins.var.buflist.format.filter = "${if:${plugins.var.buflist.item.filter}!=&&${buffer.local_variables.filter}!=? ${if:${type}==server?${color:black}:${color:31}}${buffer.local_variables.filter}}"
+2023-01-17 17:20:37		Option changed: plugins.var.buflist.format.relay_count = "${if:${plugins.var.buflist.item.relay_count}!=&&${buffer.full_name}==relay.relay.list&&${info:relay_client_count,*,connected}!=? ${color:31}Total${\x3A}${info:relay_client_count,*,connected} IRC${\x3A}${info:relay_client_count,irc,connected} WeeChat${\x3A}${info:relay_client_count,weechat,connected}}"
+2023-01-17 17:20:37		Option changed: plugins.var.buflist.format.extra = "${if:${plugins.var.buflist.item.extra}!=&&${buffer.local_variables.extra}!=? ${if:${type}==server?${color:black}:${color:31}}${buffer.local_variables.extra}}"
+2023-01-17 17:20:37		Option changed: buflist.look.use_items = 3  (default: 1)
+2023-01-17 17:20:37		Option changed: buflist.look.signals_refresh = "irc_server_connected,relay_client_connected,relay_client_disconnected"  (default: "")
+2023-01-17 17:20:37		Option changed: buflist.look.display_conditions = "${bar_item.name} == buflist && (${buffer.hidden} == || ${plugins.var.buflist.look.show_hidden_buffers} !=) && (${type} !~ ^(channel|private)$ || ${type} =~ ^(channel|private)$ && ${buffer[${if:${plugin}==irc?${info:irc_buffer,${irc_server.name}}:${info:slack_matrix_server_search,${buffer}}}].local_variables.fold}==) || ${bar_item.name} == buflist2 && ${buffer.local_variables.control_buffer} != || ${bar_item.name} == buflist3 && ${buffer.local_variables.control_buffer2} !="  (default: "${buffer.hidden}==0")
+2023-01-17 17:20:37		Trigger "buflist_refresh_options" created
+2023-01-17 17:20:37		Trigger "buflist_refresh_options" updated
+2023-01-17 17:20:37		Trigger "control_buffers_change_control_window" created
+2023-01-17 17:20:37		Trigger "control_buffers_change_control_window" updated
+2023-01-17 17:20:37		Trigger "slack_matrix_server_search" created
+2023-01-17 17:20:37		Trigger "slack_matrix_server_search" updated
+2023-01-17 17:20:37		Trigger "slack_matrix_server_search" updated
+2023-01-17 17:20:37		New key binding (context "mouse"): @item(buflist*)>bar(control_buffers*):button1* => hsignal:toggle_property
+2023-01-17 17:20:37		New key binding (context "mouse"): @chat(*)>bar(control_buffers*):button1* => hsignal:toggle_property
+2023-01-17 17:20:37		New key binding (context "mouse"): @bar(control_buffers*)>chat(*):button1* => /mute /set plugins.var.${_bar_name}_window ${_window_number2}
+2023-01-17 17:20:37		New key binding (context "mouse"): @bar(buflist):alt-wheel* => hsignal:buflist_resize
+2023-01-17 17:20:37		New key binding (context "mouse"): @bar(buflist):ctrl-alt-wheel* => hsignal:buflist_buffer_scroll
+2023-01-17 17:20:37		Key "@item(buflist2):button1*" unbound (context: "mouse")
+2023-01-17 17:20:37		New key binding (context "mouse"): @item(buflist2):button1* => /mute /set plugins.var.control_buffers_previous_active_window ${window.number};/window ${_window_number};hsignal:buflist_mouse;/window ${plugins.var.control_buffers_previous_active_window}
+2023-01-17 17:20:37		Key "@item(buflist3):button1*" unbound (context: "mouse")
+2023-01-17 17:20:37		New key binding (context "mouse"): @item(buflist3):button1* => /mute /set plugins.var.control_buffers2_previous_active_window ${window.number};/window ${_window_number};hsignal:buflist_mouse;/window ${plugins.var.control_buffers2_previous_active_window}
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buflist*):c => hsignal:toggle_property;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buflist*):C => hsignal:toggle_property;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buflist*):f => hsignal:toggle_property;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buflist*):r => /server raw c:\${${if:${localvar_type}==private?nick:${localvar_type}}}==${localvar_channel};/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buflist*):o => /fset c:\${name}=*buffer_autoset.buffer.${full_name}.* ${if:${localvar_type}==server?|| \${name${\x7D}=*${full_name}.*};/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buflist*):n => hsignal:toggle_property;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buflist*):h => hsignal:toggle_property;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buflist):H => /buflist_tools toggle show_hidden_buffers;/cursor stop
+2023-01-17 17:20:37		Trigger "toggle_bufautoset" created
+2023-01-17 17:20:37		Trigger "toggle_bufautoset" updated
+2023-01-17 17:20:37		Trigger "toggle_bufautoset" updated
+2023-01-17 17:20:37		Trigger "toggle_bufautoset" updated
+2023-01-17 17:20:37		Trigger "toggle_property" created
+2023-01-17 17:20:37		Trigger "toggle_property" updated
+2023-01-17 17:20:37		Trigger "toggle_property" updated
+2023-01-17 17:20:37		Trigger "buflist_resize" created
+2023-01-17 17:20:37		Trigger "buflist_resize" updated
+2023-01-17 17:20:37		Trigger "buflist_resize" updated
+2023-01-17 17:20:37		Trigger "buflist_resize" updated
+2023-01-17 17:20:37		Trigger "buflist_buffer_scroll" created
+2023-01-17 17:20:37		Trigger "buflist_buffer_scroll" updated
+2023-01-17 17:20:37		Trigger "buflist_buffer_scroll" updated
+2023-01-17 17:20:37		Trigger "buflist_buffer_scroll" updated
+2023-01-17 17:20:37		Trigger "buflist_fold_symbol_click" created
+2023-01-17 17:20:37		Trigger "buflist_fold_symbol_click" updated
+2023-01-17 17:20:37		Trigger "buflist_fold_symbol_click" updated
+2023-01-17 17:20:37		Trigger "buflist_fold_symbol_click" updated
+2023-01-17 17:20:37		Option changed: plugins.var.control_buffers_window = "2"
+2023-01-17 17:20:37		Option changed: plugins.var.control_buffers2_window = "3"
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.chanmon.localvar_set_control_buffer = "1"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.highmon.localvar_set_control_buffer = "1"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.newsmon.localvar_set_control_buffer = "1"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.chanmon.localvar_set_control_buffer2 = "1"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.highmon.localvar_set_control_buffer2 = "1"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.newsmon.localvar_set_control_buffer2 = "1"  (default: "")
+2023-01-17 17:20:37		Bar "title" deleted
+2023-01-17 17:20:37		Bar "titlenosep" created
+2023-01-17 17:20:37		Bar "titlesep" created
+2023-01-17 17:20:37		Bar "status" deleted
+2023-01-17 17:20:37		Bar "status" created
+2023-01-17 17:20:37		Bar "rootinput" created
+2023-01-17 17:20:37		Bar "input" deleted
+2023-01-17 17:20:37		Trigger "monitor_model" created
+2023-01-17 17:20:37		Trigger "monitor_model" updated
+2023-01-17 17:20:37		Trigger "monitor_model" updated
+2023-01-17 17:20:37		Trigger "monitor_model" updated
+2023-01-17 17:20:37		Trigger "monitor_rebuild" created
+2023-01-17 17:20:37		Trigger "monitor_rebuild" updated
+2023-01-17 17:20:37		Trigger "monitor_rebuild" updated
+2023-01-17 17:20:37		Option changed: weechat.startup.command_after_plugins = "/buffer add chanmon"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.chanmon.notify = "none"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.chanmon.highlight_words = "-"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.chanmon.title = "Channels Monitor"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.chanmon.time_for_each_line = "0"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.chanmon.localvar_set_no_chanmon_like = "1"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.irc.libera.##news.localvar_set_no_chanmon_like = "1"  (default: "")
+2023-01-17 17:20:37		Option changed: weechat.startup.command_after_plugins = "/buffer add chanmon;/buffer add highmon"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.highmon.notify = "none"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.highmon.highlight_words = "-"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.highmon.title = "Highlight Monitor"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.highmon.time_for_each_line = "0"  (default: "")
+2023-01-17 17:20:37		Trigger "news_parse_tools" created
+2023-01-17 17:20:37		Trigger "news_parse_tools" updated
+2023-01-17 17:20:37		Trigger "news_add_site_info_tags" created
+2023-01-17 17:20:37		Trigger "news_add_site_info_tags" updated
+2023-01-17 17:20:37		Trigger "news_add_site_info_tags" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_filter_rebuild" created
+2023-01-17 17:20:37		Trigger "news_newsmon_filter_rebuild" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_filter_rebuild" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_tags_build" created
+2023-01-17 17:20:37		Trigger "news_newsmon_tags_build" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_tags_build" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_tags_rebuild" created
+2023-01-17 17:20:37		Trigger "news_newsmon_tags_rebuild" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_tags_rebuild" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_tags_rebuild" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_item_rebuild" created
+2023-01-17 17:20:37		Trigger "news_newsmon_item_rebuild" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_item_rebuild" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_interest" created
+2023-01-17 17:20:37		Trigger "news_newsmon_interest" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_interest" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_interest" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_interest_attr" created
+2023-01-17 17:20:37		Trigger "news_newsmon_interest_attr" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_interest_attr" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_interest_attr" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_click_item" created
+2023-01-17 17:20:37		Trigger "news_newsmon_click_item" updated
+2023-01-17 17:20:37		Trigger "news_newsmon_click_item" updated
+2023-01-17 17:20:37		New key binding (context "mouse"): @item(news_item):button1* => hsignal:news_newsmon_click_item
+2023-01-17 17:20:37		New key binding (context "mouse"): @item(news_item):button2* => hsignal:news_newsmon_click_item
+2023-01-17 17:20:37		Trigger "news_click" created
+2023-01-17 17:20:37		Trigger "news_click" updated
+2023-01-17 17:20:37		Trigger "news_click" updated
+2023-01-17 17:20:37		New key binding (context "cursor"): @chat(core.newsmon):i => hsignal:news_click;/cursor stop
+2023-01-17 17:20:37		Option changed: weechat.startup.command_after_plugins = "/buffer add chanmon;/buffer add highmon;/buffer add newsmon"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.newsmon.notify = "none"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.newsmon.highlight_words = "-"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.newsmon.title = "News Monitor"  (default: "")
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.newsmon.time_for_each_line = "0"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.irc.libera.##news.notify = "none"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.irc.libera.##news.hidden = "1"  (default: "")
+2023-01-17 17:20:37		Custom bar item "news_item" added
+2023-01-17 17:20:37		Layout of windows stored in "main-control" (current layout: main-control)
+2023-01-17 17:20:37		Layout of windows stored in "main-control-control2" (current layout: main-control-control2)
+2023-01-17 17:20:37		Alias "nullpointer" => "/exec -sh -hsignal nullpointer $* 2>&1 | curl -sfSF file=@- https://0x0.st" created
+2023-01-17 17:20:37		Trigger "nullpointer" created
+2023-01-17 17:20:37		Trigger "nullpointer" updated
+2023-01-17 17:20:37		Trigger "nullpointer" updated
+2023-01-17 17:20:37	=!=	Alias "devinfo" not found
+2023-01-17 17:20:37		Trigger "devinfo" created
+2023-01-17 17:20:37		Trigger "devinfo" updated
+2023-01-17 17:20:37		Trigger "devinfo" updated
+2023-01-17 17:20:37		Trigger "devinfo" updated
+2023-01-17 17:20:37		Trigger "utils_date_calc_days" created
+2023-01-17 17:20:37		Trigger "utils_date_calc_days" updated
+2023-01-17 17:20:37		Trigger "utils_date_calc_days" updated
+2023-01-17 17:20:37		Trigger "utils_date_preferred" created
+2023-01-17 17:20:37		Trigger "utils_date_preferred" updated
+2023-01-17 17:20:37		Trigger "utils_date_preferred" updated
+2023-01-17 17:20:37		Trigger "devinfo_hsignal" created
+2023-01-17 17:20:37		Trigger "devinfo_hsignal" updated
+2023-01-17 17:20:37		Trigger "devinfo_hsignal" updated
+2023-01-17 17:20:37		Trigger "devinfo_hsignal" updated
+2023-01-17 17:20:37	=!=	Trigger "translate_target_lang" not found
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.exec.exec.translated_dict.short_name = "dictionary"  (default: "")
+2023-01-17 17:20:37		Option changed: plugins.var.translate_lang = "fr"
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.irc.*.*fr.localvar_set_translate_lang = "en"  (default: "")
+2023-01-17 17:20:37		Trigger "translate" created
+2023-01-17 17:20:37		Trigger "translate" updated
+2023-01-17 17:20:37		Trigger "translate" updated
+2023-01-17 17:20:37		Trigger "translate_hsignal" created
+2023-01-17 17:20:37		Trigger "translate_hsignal" updated
+2023-01-17 17:20:37		Trigger "translate_hsignal" updated
+2023-01-17 17:20:37		New key binding (context "cursor"): @chat:t => /window ${_window_number};hsignal:translate;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @chat:l => /window ${_window_number};hsignal:translate;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @chat:d => /window ${_window_number};hsignal:translate;/cursor stop
+2023-01-17 17:20:37		Trigger "modifier_is_nick_valid" created
+2023-01-17 17:20:37		Trigger "modifier_is_nick_valid" updated
+2023-01-17 17:20:37		Trigger "modifier_is_nick_valid" updated
+2023-01-17 17:20:37	=!=	trigger: trigger "weechat_logo_random_colors" already exists (choose another name or use option "addreplace" to overwrite it)
+2023-01-17 17:20:37		Trigger "weechat_logo_random_colors" updated
+2023-01-17 17:20:37		Trigger "weechat_logo_random_colors" updated
+2023-01-17 17:20:37		Trigger "logo" created
+2023-01-17 17:20:37		Trigger "logo" updated
+2023-01-17 17:20:37		Trigger "logo" updated
+2023-01-17 17:20:37		Trigger "logo" updated
+2023-01-17 17:20:37		New key binding (context "mouse"): @chat(core.logo):button1 => /logo toggle
+2023-01-17 17:20:37		New key binding (context "mouse"): @chat(core.logo):button1-gesture-left* => /logo slower
+2023-01-17 17:20:37		New key binding (context "mouse"): @chat(core.logo):button1-gesture-right* => /logo faster
+2023-01-17 17:20:37		Option changed: buffer_autoset.buffer.core.logo.title = "Animated WeeChat Logo - Click on the logo to toggle the animation - Use gesture to increase and decrease the speed"  (default: "")
+2023-01-17 17:20:37		Alias "logo_xmas" => "/logo color "" "34 46 40 124 160 196 white"" created
+2023-01-17 17:20:37		Alias "logo_config" => "/logo color "" "24 31 121 163 229 white"" created
+2023-01-17 17:20:37		Trigger "day_changed_upgrade_scripts" created
+2023-01-17 17:20:37		Trigger "day_changed_upgrade_scripts" updated
+2023-01-17 17:20:37		Trigger "no_notify_duck_command" created
+2023-01-17 17:20:37		Trigger "no_notify_duck_command" updated
+2023-01-17 17:20:37		Trigger "no_notify_duck_command" updated
+2023-01-17 17:20:37		Trigger "utils_holiday" created
+2023-01-17 17:20:37		Trigger "utils_holiday" updated
+2023-01-17 17:20:37		Trigger "utils_holiday" updated
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.short_name = "memory"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.clear = "1"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.title = "Memory Game  Keys: alt+space: show the grid bar, alt-n: new game, ←↑→↓: move the cursor  Input: space: flip card q: quit"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.key_bind_meta-n = "/play_memory 4 13"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.key_bind_meta2-A = "/memory_game_keyboard up"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.key_bind_meta2-B = "/memory_game_keyboard down"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.key_bind_meta2-D = "/memory_game_keyboard left"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.key_bind_meta2-C = "/memory_game_keyboard right"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.memory_game.key_bind_meta-space = "/bar toggle memory_game_choose_grid"  (default: "")
+2023-01-17 17:20:37		New key binding (context "mouse"): @chat(core.memory_game):button1 => hsignal:memory_game
+2023-01-17 17:20:37		New key binding (context "mouse"): @item(memory_game_choose_grid):button1-event-drag => hsignal:memory_game_item_selected
+2023-01-17 17:20:37		New key binding (context "mouse"): @item(memory_game_choose_grid):button1* => hsignal:memory_game_item_start
+2023-01-17 17:20:37		Custom bar item "memory_game_choose_grid" added
+2023-01-17 17:20:37		Bar "memory_game_choose_grid" created
+2023-01-17 17:20:37		Alias "play_memory" => "/memory_game $1 $2 🍅🍌🍒🍓🥒🍇🍉🍋🍍🫐🥕🥦🍭🍕🥨🥑🍐🫒🧅🥣🍿🍟🥔🫑🎂🍬🐵🐒🦍🦧🐶🦮🐩🐺🦊🦝🐈🦁🐯🐅🐆🐴🐎🦄🦓🦌🦬🐮🐂🐃🐮🐄🐷🐖🐗🐽🐏🐪🦙🦒🐘🦣🦏🦛🐭🐁🐀🐹🐇🐰🦫🦔🦇🐻🐨🐼🦥🦦🦨🦘🦡🦃🐔🐓🐤🐦🐧🦅🦆🦢🦉🦤🦩🦚🦜🐸🐊🐢🦎🐍🐲🦕🦖🐋🐬🦭🐟🐠🐡🦈🐙🐌🦋🐛🐜🐝🪲🐞🦗🦂🦟🪰🪱" created
+2023-01-17 17:20:37		Trigger "memory_game" created
+2023-01-17 17:20:37		Trigger "memory_game" updated
+2023-01-17 17:20:37		Trigger "memory_game" updated
+2023-01-17 17:20:37		Trigger "memory_game" updated
+2023-01-17 17:20:37		Trigger "memory_game_line_modified" created
+2023-01-17 17:20:37		Trigger "memory_game_line_modified" updated
+2023-01-17 17:20:37		Trigger "memory_game_line_modified" updated
+2023-01-17 17:20:37		Trigger "memory_game_line_modified" updated
+2023-01-17 17:20:37		Trigger "memory_game_mouse" created
+2023-01-17 17:20:37		Trigger "memory_game_mouse" updated
+2023-01-17 17:20:37		Trigger "memory_game_mouse" updated
+2023-01-17 17:20:37		Trigger "memory_game_mouse" updated
+2023-01-17 17:20:37		Trigger "memory_game_input" created
+2023-01-17 17:20:37		Trigger "memory_game_input" updated
+2023-01-17 17:20:37		Trigger "memory_game_input" updated
+2023-01-17 17:20:37		Trigger "memory_game_input" updated
+2023-01-17 17:20:37		Trigger "memory_game_keyboard" created
+2023-01-17 17:20:37		Trigger "memory_game_keyboard" updated
+2023-01-17 17:20:37		Trigger "memory_game_keyboard" updated
+2023-01-17 17:20:37		Trigger "memory_game_keyboard" updated
+2023-01-17 17:20:37		Trigger "memory_game_flip_card" created
+2023-01-17 17:20:37		Trigger "memory_game_flip_card" updated
+2023-01-17 17:20:37		Trigger "memory_game_flip_card" updated
+2023-01-17 17:20:37		Trigger "memory_game_item_start" created
+2023-01-17 17:20:37		Trigger "memory_game_item_start" updated
+2023-01-17 17:20:37		Trigger "memory_game_item_start" updated
+2023-01-17 17:20:37		Trigger "memory_game_item_start" updated
+2023-01-17 17:20:37		Trigger "memory_game_item_selected" created
+2023-01-17 17:20:37		Trigger "memory_game_item_selected" updated
+2023-01-17 17:20:37		Trigger "memory_game_item_selected" updated
+2023-01-17 17:20:37		Trigger "memory_game_item_selected" updated
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.short_name = "sliding"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.clear = "1"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.title = "Sliding Game  Keys: alt-n,1-9: new game, ←↑→↓: move a number  Input: q: quit"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta-n3 = "/sliding_game 3"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta-n4 = "/sliding_game 4"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta-n5 = "/sliding_game 5"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta-n6 = "/sliding_game 6"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta-n7 = "/sliding_game 7"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta-n8 = "/sliding_game 8"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta-n9 = "/sliding_game 9"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta2-A = "/sliding_game_keyboard up"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta2-B = "/sliding_game_keyboard down"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta2-C = "/sliding_game_keyboard right"  (default: "")
+2023-01-17 17:20:37		Option created: buffer_autoset.buffer.core.sliding_game.key_bind_meta2-D = "/sliding_game_keyboard left"  (default: "")
+2023-01-17 17:20:37		New key binding (context "mouse"): @chat(core.sliding_game):button1 => hsignal:sliding_game
+2023-01-17 17:20:37		Trigger "sliding_game" created
+2023-01-17 17:20:37		Trigger "sliding_game" updated
+2023-01-17 17:20:37		Trigger "sliding_game" updated
+2023-01-17 17:20:37		Trigger "sliding_game" updated
+2023-01-17 17:20:37		Trigger "sliding_game_draw" created
+2023-01-17 17:20:37		Trigger "sliding_game_draw" updated
+2023-01-17 17:20:37		Trigger "sliding_game_draw" updated
+2023-01-17 17:20:37		Trigger "sliding_game_how_many_inversion" created
+2023-01-17 17:20:37		Trigger "sliding_game_how_many_inversion" updated
+2023-01-17 17:20:37		Trigger "sliding_game_mouse" created
+2023-01-17 17:20:37		Trigger "sliding_game_mouse" updated
+2023-01-17 17:20:37		Trigger "sliding_game_mouse" updated
+2023-01-17 17:20:37		Trigger "sliding_game_mouse" updated
+2023-01-17 17:20:37		Trigger "sliding_game_keyboard" created
+2023-01-17 17:20:37		Trigger "sliding_game_keyboard" updated
+2023-01-17 17:20:37		Trigger "sliding_game_keyboard" updated
+2023-01-17 17:20:37		Trigger "sliding_game_keyboard" updated
+2023-01-17 17:20:37		Trigger "sliding_game_number_input" created
+2023-01-17 17:20:37		Trigger "sliding_game_number_input" updated
+2023-01-17 17:20:37		Trigger "sliding_game_number_input" updated
+2023-01-17 17:20:37		Trigger "sliding_game_number_input" updated
+2023-01-17 17:20:37		Trigger "sliding_game_look_around" created
+2023-01-17 17:20:37		Trigger "sliding_game_look_around" updated
+2023-01-17 17:20:37		Option changed: weechat.look.highlight = "*pascalpoitras*"  (default: "")
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buffer_nicklist):v => /window ${_window_number};/voice ${nick}
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buffer_nicklist):o => /window ${_window_number};/op ${nick}
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buffer_nicklist):V => /window ${_window_number};/devoice ${nick}
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buffer_nicklist):O => /window ${_window_number};/deop ${nick}
+2023-01-17 17:20:37		New key binding (context "cursor"): @chat:s => /window ${_window_number};/slap ${_chat_line_nick};/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @item(buffer_nicklist):s => /window ${_window_number};/slap ${nick};/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @chat:a => /command -buffer ${buffer.full_name} core /input insert ${_chat_bol}\x20;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @chat:e => /command -buffer ${buffer.full_name} core /input insert ${_chat_eol}\x20;/cursor stop
+2023-01-17 17:20:37		New key binding (context "cursor"): @chat:w => /command -buffer ${buffer.full_name} core /input insert ${_chat_word}\x20;/cursor stop
+2023-01-17 17:20:37		Key "meta-meta2-A" unbound (context: "default")
+2023-01-17 17:20:37		New key binding (context "default"): meta-meta2-A => /bar scroll nicklist * -100%
+2023-01-17 17:20:37		Key "meta-meta2-B" unbound (context: "default")
+2023-01-17 17:20:37		New key binding (context "default"): meta-meta2-B => /bar scroll nicklist * +100%
+2023-01-17 17:20:37		Key "meta2-A" unbound (context: "default")
+2023-01-17 17:20:37		New key binding (context "default"): meta2-A => /input history_global_previous
+2023-01-17 17:20:37		Key "meta2-B" unbound (context: "default")
+2023-01-17 17:20:37		New key binding (context "default"): meta2-B => /input history_global_next
+2023-01-17 17:20:37		Alias "ame" => "allchan -current /me" created
+2023-01-17 17:20:37		Alias "amsg" => "allchan -current /msg *" created
+2023-01-17 17:20:37		Alias "cq" => "/allpv /buffer close" created
+2023-01-17 17:20:37		Alias "znc" => "/quote znc" created
+2023-01-17 17:20:37		Alias "irc_stats" => "/set plugins.var.total_irc_servers 0;/set plugins.var.total_irc_channels 0;/set plugins.var.total_irc_privates 0;/allserv /eval /set plugins.var.total_irc_servers ${calc:${plugins.var.total_irc_servers}+1};/allchan /eval /set plugins.var.total_irc_channels ${calc:${plugins.var.total_irc_channels}+1};/allpv /eval /set plugins.var.total_irc_privates ${calc:${plugins.var.total_irc_privates}+1};/eval I am currently on ${plugins.var.total_irc_servers} server${if:${plugins.var.total_irc_servers}>1?s}, ${plugins.var.total_irc_channels} channel${if:${plugins.var.total_irc_channels}>1?s} and I have ${plugins.var.total_irc_privates} quer${if:${plugins.var.total_irc_privates}>1?ies:y}.;/unset -mask plugins.var.total_irc_*" created
+2023-01-17 17:20:37		Alias "close" => "/eval ${if:-m==$*?/allpv }/buffer close" created
+2023-01-17 17:20:37		Alias "slap" => "/me slaps $* around a bit with a large trout" created
+2023-01-17 17:20:37		Alias "fu" => "/say (╹◡╹)凸 $*" created
+2023-01-17 17:20:37		Alias "multicomm" => "/alias add temp $*;/temp" created
+2023-01-17 17:20:37		Option changed: irc.look.smart_filter = on
+2023-01-17 17:20:37		
+2023-01-17 17:20:37		Filter "irc_smart" added:
+2023-01-17 17:20:37		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2023-01-17 17:20:37		
+2023-01-17 17:20:37		Filter "bitlbee_lots_of_hashtags" added:
+2023-01-17 17:20:37		  [bitlbee_lots_of_hashtags] buffer: irc.bitlbee.#* / tags: * / regex: (#[^ ]+.*){4} 
+2023-01-17 17:20:37		
+2023-01-17 17:20:37		Filter "bitlbee_no_rt" added:
+2023-01-17 17:20:37		  [bitlbee_no_rt] buffer: irc.bitlbee.#* / tags: * / regex: ^\[[^]]+\] RT @[^: ]+: 
+2023-01-17 17:20:37		
+2023-01-17 17:20:37		Filter "bitlbee_no_reply" added:
+2023-01-17 17:20:37		  [bitlbee_no_reply] buffer: irc.bitlbee.#* / tags: * / regex: ^\[[^]]+\] @[^ ]+ 
+2023-01-17 17:20:37		
+2023-01-17 17:20:37		Filter "bitlbee_no_hashtags_only" added:
+2023-01-17 17:20:37		  [bitlbee_no_hashtags_only] buffer: irc.bitlbee.#* / tags: * / regex: ^\[[^]]+\] (#[^ ]+( +|$))+$ 
+2023-01-17 17:20:37		Option changed: weechat.color.chat_prefix_join = 121  (default: lightgreen)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_host = 31  (default: cyan)
+2023-01-17 17:20:37		Option changed: irc.color.message_join = 121  (default: green)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_prefix_quit = 131  (default: lightred)
+2023-01-17 17:20:37		Option changed: irc.color.message_quit = 131  (default: red)
+2023-01-17 17:20:37		Option changed: exec.command.shell = "bash"  (default: "${env:SHELL}")
+2023-01-17 17:20:37		Option changed: irc.server_default.away_check = 5  (default: 0)
+2023-01-17 17:20:37		Option changed: irc.server_default.away_check_max_nicks = 25
+2023-01-17 17:20:37		Option changed: irc.color.nick_prefixes = "q:lightred;a:lightcyan;o:121;h:lightmagenta;v:229;*:lightblue"  (default: "y:lightred;q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue")
+2023-01-17 17:20:37		Option changed: irc.network.ban_mask_default = "*!*@$host"  (default: "*!$ident@$host")
+2023-01-17 17:20:37		Option changed: irc.look.buffer_switch_autojoin = off  (default: on)
+2023-01-17 17:20:37		Option changed: irc.look.buffer_switch_join = off  (default: on)
+2023-01-17 17:20:37		Option changed: irc.look.color_nicks_in_nicklist = on  (default: off)
+2023-01-17 17:20:37		Option changed: irc.look.part_closes_buffer = on  (default: off)
+2023-01-17 17:20:37		Option changed: irc.color.mirc_remap = "1,-1:16;14,-1:240"  (default: "1,-1:darkgray")
+2023-01-17 17:20:37		Option changed: weechat.look.bar_more_down = ""  (default: "++")
+2023-01-17 17:20:37		Option changed: weechat.look.bar_more_up = ""  (default: "--")
+2023-01-17 17:20:37		Option changed: weechat.look.bar_more_left = "…"  (default: "<<")
+2023-01-17 17:20:37		Option changed: weechat.look.bar_more_right = "…"  (default: ">>")
+2023-01-17 17:20:37		Option changed: weechat.look.buffer_notify_default = message  (default: all)
+2023-01-17 17:20:37		Option changed: weechat.look.buffer_time_format = "${color:245}%H${color:253}%M"  (default: "%H:%M:%S")
+2023-01-17 17:20:37		Option changed: weechat.look.color_inactive_message = off  (default: on)
+2023-01-17 17:20:37		Option changed: weechat.look.color_inactive_prefix = off  (default: on)
+2023-01-17 17:20:37		Option changed: weechat.look.color_inactive_prefix_buffer = off  (default: on)
+2023-01-17 17:20:37		Option changed: weechat.look.color_inactive_window = off  (default: on)
+2023-01-17 17:20:37		Option changed: weechat.look.day_change_message_1date = "▬▬▶ ${if:${info:holiday,%d-%m}?${info:holiday,%d-%m}:%a, %d %b %Y} ◀▬▬"  (default: "-- %a, %d %b %Y --")
+2023-01-17 17:20:37		Option changed: weechat.look.day_change_message_2dates = "▬▬▶ ${if:${info:holiday,%%d-%%m}?${info:holiday,%%d-%%m}:%%a, %%d %%b %%Y} (%a, %d %b %Y) ◀▬▬"  (default: "-- %%a, %%d %%b %%Y (%a, %d %b %Y) --")
+2023-01-17 17:20:37		Option changed: weechat.look.hotlist_add_conditions = "${away} || ${buffer.num_displayed} == 0"  (default: "${away} || ${buffer.num_displayed} == 0 || ${info:relay_client_count,weechat,connected} > 0")
+2023-01-17 17:20:37		Option changed: weechat.look.item_buffer_filter = "•"  (default: "*")
+2023-01-17 17:20:37		Option changed: weechat.look.prefix_align_min = 0
+2023-01-17 17:20:37		Option changed: weechat.look.prefix_align_max = 10  (default: 0)
+2023-01-17 17:20:37		Option changed: weechat.look.prefix_join = "▬▬▶"  (default: "-->")
+2023-01-17 17:20:37		Option changed: weechat.look.prefix_quit = "◀▬▬"  (default: "<--")
+2023-01-17 17:20:37		Option changed: weechat.look.prefix_suffix = "│"  (default: "|")
+2023-01-17 17:20:37		Option changed: weechat.look.read_marker_string = "─"  (default: "- ")
+2023-01-17 17:20:37		Option changed: weechat.look.separator_horizontal = ""  (default: "-")
+2023-01-17 17:20:37		Option changed: weechat.color.bar_more = 229  (default: lightmagenta)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_highlight = lightred  (default: yellow)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_highlight_bg = default  (default: magenta)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,lightcyan,lightmagenta,lightgreen,blue"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2023-01-17 17:20:37		Option changed: weechat.color.chat_prefix_more = 31  (default: lightmagenta)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_prefix_suffix = 31  (default: green)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_read_marker = 31  (default: magenta)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_time = 239  (default: default)
+2023-01-17 17:20:37		Option changed: weechat.color.chat_delimiters = 31  (default: green)
+2023-01-17 17:20:37		Option changed: weechat.color.separator = 31  (default: blue)
+2023-01-17 17:20:37		Option changed: weechat.color.status_data_highlight = 163  (default: lightmagenta)
+2023-01-17 17:20:37		Option changed: weechat.color.status_data_msg = 229  (default: yellow)
+2023-01-17 17:20:37		Option changed: weechat.color.status_data_private = 121  (default: lightgreen)
+2023-01-17 17:20:37		Option changed: weechat.color.status_more = 229  (default: yellow)
+2023-01-17 17:20:37		Option changed: weechat.color.status_name = 121  (default: white)
+2023-01-17 17:20:37		Option changed: weechat.color.status_name_ssl = 121  (default: lightgreen)
+2023-01-17 17:20:37		Option changed: weechat.color.status_time = white  (default: default)
+2023-01-17 17:20:37		Option changed: weechat.color.status_nicklist_count = white  (default: default)
+2023-01-17 17:20:37		Option changed: weechat.color.status_number = white  (default: yellow)
+2023-01-17 17:20:37		Option changed: weechat.history.max_buffer_lines_number = 1024  (default: 4096)
+2023-01-17 17:20:37		Options saved to sec.conf
+2023-01-17 17:20:37		Options saved to weechat.conf
+2023-01-17 17:20:37		Options saved to plugins.conf
+2023-01-17 17:20:37		Options saved to charset.conf
+2023-01-17 17:20:37		Options saved to logger.conf
+2023-01-17 17:20:37		Options saved to exec.conf
+2023-01-17 17:20:37		Options saved to trigger.conf
+2023-01-17 17:20:37		Options saved to spell.conf
+2023-01-17 17:20:37		Options saved to alias.conf
+2023-01-17 17:20:37		Options saved to buflist.conf
+2023-01-17 17:20:37		Options saved to fifo.conf
+2023-01-17 17:20:37		Options saved to typing.conf
+2023-01-17 17:20:37		Options saved to xfer.conf
+2023-01-17 17:20:37		Options saved to irc.conf
+2023-01-17 17:20:37		Options saved to relay.conf
+2023-01-17 17:20:37		Options saved to guile.conf
+2023-01-17 17:20:37		Options saved to lua.conf
+2023-01-17 17:20:37		Options saved to perl.conf
+2023-01-17 17:20:37		Options saved to python.conf
+2023-01-17 17:20:37		Options saved to ruby.conf
+2023-01-17 17:20:37		Options saved to tcl.conf
+2023-01-17 17:20:37		Options saved to script.conf
+2023-01-17 17:20:37		Options saved to fset.conf
+2023-01-17 17:20:37		Options saved to autosort.conf
+2023-01-17 17:20:37		Options saved to buffer_autoset.conf
+2023-01-17 17:20:45	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:20:59		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:20:59		python: scripts unloaded
+2023-01-17 17:21:03		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:21:03		python scripts loaded: autosort, buffer_autoset, cmd_help
+2023-01-17 17:21:03		script: 307 scripts for WeeChat 3.7.1
+2023-01-17 17:21:03		Plugins loaded: alias, buflist, charset, exec, fset, irc, logger, python, relay, script, spell, trigger, typing
+2023-01-17 17:21:03	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:21:06	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:21:06	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:21:07	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:21:08	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:21:08	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:21:08	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:21:25		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:21:25		python: scripts unloaded
+2023-01-17 17:28:09		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:28:10		python scripts loaded: autosort, buffer_autoset, cmd_help
+2023-01-17 17:28:10		script: 307 scripts for WeeChat 3.7.1
+2023-01-17 17:28:10		Plugins loaded: alias, buflist, charset, exec, fset, irc, logger, python, relay, script, spell, trigger, typing
+2023-01-17 17:28:10	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:28:29		Passphrase added
+2023-01-17 17:28:33		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 17:28:33		python: scripts unloaded
+2023-01-17 17:28:36		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 17:28:36		python scripts loaded: autosort, buffer_autoset, cmd_help
+2023-01-17 17:28:36		script: 307 scripts for WeeChat 3.7.1
+2023-01-17 17:28:36		Plugins loaded: alias, buflist, charset, exec, fset, irc, logger, python, relay, script, spell, trigger, typing
+2023-01-17 17:28:36	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:28:39	=!=	You can not write text in this buffer
+2023-01-17 17:29:00	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:53:14		irc: server added: libera
+2023-01-17 17:53:40		Option changed: irc.server.libera.nicks = "MosterAbyss"  (default if null: "${sec.data.defaultnicks}")
+2023-01-17 17:55:26		Option changed: irc.server.libera.sasl_password = "amitlove89"  (default if null: "")
+2023-01-17 17:55:39	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 17:56:02	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 18:06:11	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 18:08:07		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 18:08:07		python: scripts unloaded
+2023-01-17 18:17:15	=!=	irc: warning: proxy "tor" does not exist (you can add it with command /proxy)
+2023-01-17 18:17:15	=!=	irc: warning: proxy "tor" does not exist (you can add it with command /proxy)
+2023-01-17 18:17:15	=!=	irc: warning: invalid autojoin value "#ipt.annount #seedbox #iptorrents", see /help irc.server.Iptorrents.autojoin
+2023-01-17 18:17:15	=!=	irc: warning: proxy "tor" does not exist (you can add it with command /proxy)
+2023-01-17 18:17:15		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 18:17:15		python scripts loaded: autosort, buffer_autoset, cmd_help
+2023-01-17 18:17:15		script: 307 scripts for WeeChat 3.7.1
+2023-01-17 18:17:15		Plugins loaded: alias, buflist, charset, exec, fset, irc, logger, python, relay, script, spell, trigger, typing
+2023-01-17 18:17:15	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 18:18:16		Proxy "tor" added
+2023-01-17 18:18:24		Options saved to sec.conf
+2023-01-17 18:18:24		Options saved to weechat.conf
+2023-01-17 18:18:24		Options saved to plugins.conf
+2023-01-17 18:18:24		Options saved to charset.conf
+2023-01-17 18:18:24		Options saved to logger.conf
+2023-01-17 18:18:24		Options saved to exec.conf
+2023-01-17 18:18:24		Options saved to trigger.conf
+2023-01-17 18:18:24		Options saved to spell.conf
+2023-01-17 18:18:24		Options saved to alias.conf
+2023-01-17 18:18:24		Options saved to buflist.conf
+2023-01-17 18:18:24		Options saved to typing.conf
+2023-01-17 18:18:24		Options saved to irc.conf
+2023-01-17 18:18:24		Options saved to relay.conf
+2023-01-17 18:18:24		Options saved to python.conf
+2023-01-17 18:18:24		Options saved to autosort.conf
+2023-01-17 18:18:24		Options saved to buffer_autoset.conf
+2023-01-17 18:18:24		Options saved to script.conf
+2023-01-17 18:18:24		Options saved to fset.conf
+2023-01-17 18:18:27		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 18:18:27		python: scripts unloaded
+2023-01-17 18:18:28	=!=	irc: warning: invalid autojoin value "#ipt.annount #seedbox #iptorrents", see /help irc.server.Iptorrents.autojoin
+2023-01-17 18:18:28		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 18:18:28		python scripts loaded: autosort, buffer_autoset, cmd_help
+2023-01-17 18:18:28		script: 307 scripts for WeeChat 3.7.1
+2023-01-17 18:18:28		Plugins loaded: alias, buflist, charset, exec, fset, irc, logger, python, relay, script, spell, trigger, typing
+2023-01-17 18:18:28	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 18:25:43	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 18:25:45	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 18:25:46	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 18:26:25	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 18:27:03		Option changed: irc.server.Libra.Chat.autojoin = "#intern0t,#subhackers,#asm,#r_netsec,#news"  (default if null: "")
+2023-01-17 19:41:03	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 19:54:45		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 19:54:45		python: scripts unloaded
+2023-01-17 19:58:38	=!=	irc: warning: invalid autojoin value "#ipt.annount #seedbox #iptorrents", see /help irc.server.Iptorrents.autojoin
+2023-01-17 19:58:38		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 19:58:38		python scripts loaded: autosort, buffer_autoset, cmd_help
+2023-01-17 19:58:38		script: 307 scripts for WeeChat 3.7.1
+2023-01-17 19:58:38		Plugins loaded: alias, buflist, charset, exec, fset, irc, logger, python, relay, script, spell, trigger, typing
+2023-01-17 19:58:38	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 20:00:04		
+2023-01-17 20:00:04		All servers:
+2023-01-17 20:00:04		   freenode
+2023-01-17 20:00:04		   subhacker
+2023-01-17 20:00:04		   secops
+2023-01-17 20:00:04		 * SoldierX [connected], nick: Abyss, 1 channel, 0 pv
+2023-01-17 20:00:04		   hackthesite
+2023-01-17 20:00:04		   Iptorrents
+2023-01-17 20:00:04		 * libera [connected], nick: MonsterAbyss, 5 channels, 0 pv
+2023-01-17 20:00:07	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 20:00:29	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 20:05:54	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 20:06:02	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 20:06:43		spell: "core.weechat" => en
+2023-01-17 20:06:48		Options saved to sec.conf
+2023-01-17 20:06:48		Options saved to weechat.conf
+2023-01-17 20:06:48		Options saved to plugins.conf
+2023-01-17 20:06:48		Options saved to charset.conf
+2023-01-17 20:06:48		Options saved to logger.conf
+2023-01-17 20:06:48		Options saved to exec.conf
+2023-01-17 20:06:48		Options saved to trigger.conf
+2023-01-17 20:06:48		Options saved to spell.conf
+2023-01-17 20:06:49		Options saved to alias.conf
+2023-01-17 20:06:49		Options saved to buflist.conf
+2023-01-17 20:06:49		Options saved to typing.conf
+2023-01-17 20:06:49		Options saved to irc.conf
+2023-01-17 20:06:49		Options saved to relay.conf
+2023-01-17 20:06:49		Options saved to python.conf
+2023-01-17 20:06:49		Options saved to autosort.conf
+2023-01-17 20:06:49		Options saved to buffer_autoset.conf
+2023-01-17 20:06:49		Options saved to script.conf
+2023-01-17 20:06:49		Options saved to fset.conf
+2023-01-17 20:06:58	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 20:10:49		Option changed: plugins.var.translate_lang = "en"
+2023-01-17 20:11:10	=!=	spell: error: No word lists can be found for the language "fr".
+2023-01-17 20:12:07		Option changed: spell.check.default_dict = "en"  (default: "")
+2023-01-17 20:12:16		Options saved to sec.conf
+2023-01-17 20:12:16		Options saved to weechat.conf
+2023-01-17 20:12:16		Options saved to plugins.conf
+2023-01-17 20:12:16		Options saved to charset.conf
+2023-01-17 20:12:16		Options saved to logger.conf
+2023-01-17 20:12:16		Options saved to exec.conf
+2023-01-17 20:12:16		Options saved to trigger.conf
+2023-01-17 20:12:16		Options saved to spell.conf
+2023-01-17 20:12:16		Options saved to alias.conf
+2023-01-17 20:12:16		Options saved to buflist.conf
+2023-01-17 20:12:16		Options saved to typing.conf
+2023-01-17 20:12:16		Options saved to irc.conf
+2023-01-17 20:12:16		Options saved to relay.conf
+2023-01-17 20:12:16		Options saved to python.conf
+2023-01-17 20:12:16		Options saved to autosort.conf
+2023-01-17 20:12:16		Options saved to buffer_autoset.conf
+2023-01-17 20:12:16		Options saved to script.conf
+2023-01-17 20:12:16		Options saved to fset.conf
+2023-01-17 20:16:50		Options saved to sec.conf
+2023-01-17 20:16:50		Options saved to weechat.conf
+2023-01-17 20:16:50		Options saved to plugins.conf
+2023-01-17 20:16:50		Options saved to charset.conf
+2023-01-17 20:16:50		Options saved to logger.conf
+2023-01-17 20:16:50		Options saved to exec.conf
+2023-01-17 20:16:50		Options saved to trigger.conf
+2023-01-17 20:16:50		Options saved to spell.conf
+2023-01-17 20:16:50		Options saved to alias.conf
+2023-01-17 20:16:50		Options saved to buflist.conf
+2023-01-17 20:16:50		Options saved to typing.conf
+2023-01-17 20:16:50		Options saved to irc.conf
+2023-01-17 20:16:50		Options saved to relay.conf
+2023-01-17 20:16:50		Options saved to python.conf
+2023-01-17 20:16:50		Options saved to autosort.conf
+2023-01-17 20:16:50		Options saved to buffer_autoset.conf
+2023-01-17 20:16:50		Options saved to script.conf
+2023-01-17 20:16:50		Options saved to fset.conf
+2023-01-17 20:17:50		Options saved to sec.conf
+2023-01-17 20:17:50		Options saved to weechat.conf
+2023-01-17 20:17:50		Options saved to plugins.conf
+2023-01-17 20:17:50		Options saved to charset.conf
+2023-01-17 20:17:50		Options saved to logger.conf
+2023-01-17 20:17:50		Options saved to exec.conf
+2023-01-17 20:17:50		Options saved to trigger.conf
+2023-01-17 20:17:50		Options saved to spell.conf
+2023-01-17 20:17:50		Options saved to alias.conf
+2023-01-17 20:17:50		Options saved to buflist.conf
+2023-01-17 20:17:50		Options saved to typing.conf
+2023-01-17 20:17:50		Options saved to irc.conf
+2023-01-17 20:17:50		Options saved to relay.conf
+2023-01-17 20:17:50		Options saved to python.conf
+2023-01-17 20:17:50		Options saved to autosort.conf
+2023-01-17 20:17:50		Options saved to buffer_autoset.conf
+2023-01-17 20:17:50		Options saved to script.conf
+2023-01-17 20:17:50		Options saved to fset.conf
+2023-01-17 20:18:09		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 20:18:09		python: scripts unloaded
+2023-01-17 20:18:11	=!=	irc: warning: invalid autojoin value "#ipt.annount #seedbox #iptorrents", see /help irc.server.Iptorrents.autojoin
+2023-01-17 20:18:11		relay: listening on port 0 (relay: ssl.irc, IPv4+6, max 5 clients)
+2023-01-17 20:18:11		python scripts loaded: autosort, buffer_autoset, cmd_help
+2023-01-17 20:18:11		script: 307 scripts for WeeChat 3.7.1
+2023-01-17 20:18:11		Plugins loaded: alias, buflist, charset, exec, fset, irc, logger, python, relay, script, spell, trigger, typing
+2023-01-17 22:30:16		relay: socket closed for ssl.irc (port: 0)
+2023-01-17 22:30:16		python: scripts unloaded

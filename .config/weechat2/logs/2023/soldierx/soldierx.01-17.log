@@ -1,0 +1,78 @@
+2023-01-17 18:18:29	--	hacker.sx: *** Looking up your hostname
+2023-01-17 18:18:29	--	hacker.sx: *** Checking Ident
+2023-01-17 18:18:29	--	hacker.sx: *** Found your hostname
+2023-01-17 18:18:29	--	hacker.sx: *** No Ident response
+2023-01-17 18:18:30	--	Welcome to the hacker.sx Internet Relay Chat Network Abyss!~Abyss@20.tor-exit.nothingtohide.nl
+2023-01-17 18:18:30	--	Your host is hacker.sx[0.0.0.0/6667], running version hybrid-1:8.2.38+dfsg.1-2
+2023-01-17 18:18:30	--	This server was created February 28 2021 at 12:22:17+0000
+2023-01-17 18:18:30	--	hacker.sx hybrid-1:8.2.38+dfsg.1-2 BDFGHXRSWacdefgijklnopqrswy bchiklmnoprstuveCIKLMNORST bkloveIh
+2023-01-17 18:18:30	--	BOT=B CALLERID CASEMAPPING=ascii DEAF=D KICKLEN=180 MODES=6 PREFIX=(ohv)@%+ STATUSMSG=@%+ EXCEPTS INVEX NICKLEN=15 NETWORK=hacker.sx MAXLIST=beI:100 are supported by this server
+2023-01-17 18:18:30	--	MAXTARGETS=4 CHANTYPES=# CHANLIMIT=#:25 CHANNELLEN=50 TOPICLEN=300 CHANMODES=beI,k,l,cimnprstuCKLMNORST EXTBAN=$,acjmnorstuz ELIST=CMNTU SAFELIST AWAYLEN=180 KNOCK MONITOR=50 are supported by this server
+2023-01-17 18:18:30	--	There are 0 users and 16 invisible on 2 servers
+2023-01-17 18:18:30	--	7 IRC Operators online
+2023-01-17 18:18:30	--	5 channels formed
+2023-01-17 18:18:30	--	I have 9 clients and 1 servers
+2023-01-17 18:18:30	--	Current local users: 9  Max: 13
+2023-01-17 18:18:30	--	Current global users: 16  Max: 20
+2023-01-17 18:18:30	--	Highest connection count: 14 (13 clients) (597 connections received)
+2023-01-17 18:18:30	--	- hacker.sx Message of the Day -
+2023-01-17 18:18:30	--	- Welcome to hacker.sx ircd
+2023-01-17 18:18:30	--	End of /MOTD command.
+2023-01-17 18:18:30	--	User mode [+i] by Abyss
+2023-01-17 18:18:30	--	NickServ (services@services.host): This nickname is registered and protected.  If it is your
+2023-01-17 18:18:30	--	NickServ (services@services.host): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2023-01-17 18:18:30	--	NickServ (services@services.host): please choose a different nick.
+2023-01-17 18:18:30	--	NickServ (services@services.host): Password accepted - you are now recognized.
+2023-01-17 18:18:30	--	User mode [+r] by Abyss
+2023-01-17 19:58:41	--	hacker.sx: *** Looking up your hostname
+2023-01-17 19:58:41	--	hacker.sx: *** Checking Ident
+2023-01-17 19:58:41	--	hacker.sx: *** Your forward and reverse DNS do not match, ignoring hostname
+2023-01-17 19:58:41	--	hacker.sx: *** No Ident response
+2023-01-17 19:58:42	--	Welcome to the hacker.sx Internet Relay Chat Network Abyss!~Abyss@107.189.2.111
+2023-01-17 19:58:42	--	Your host is hacker.sx[0.0.0.0/6667], running version hybrid-1:8.2.38+dfsg.1-2
+2023-01-17 19:58:42	--	This server was created February 28 2021 at 12:22:17+0000
+2023-01-17 19:58:42	--	hacker.sx hybrid-1:8.2.38+dfsg.1-2 BDFGHXRSWacdefgijklnopqrswy bchiklmnoprstuveCIKLMNORST bkloveIh
+2023-01-17 19:58:42	--	BOT=B CALLERID CASEMAPPING=ascii DEAF=D KICKLEN=180 MODES=6 PREFIX=(ohv)@%+ STATUSMSG=@%+ EXCEPTS INVEX NICKLEN=15 NETWORK=hacker.sx MAXLIST=beI:100 are supported by this server
+2023-01-17 19:58:42	--	MAXTARGETS=4 CHANTYPES=# CHANLIMIT=#:25 CHANNELLEN=50 TOPICLEN=300 CHANMODES=beI,k,l,cimnprstuCKLMNORST EXTBAN=$,acjmnorstuz ELIST=CMNTU SAFELIST AWAYLEN=180 KNOCK MONITOR=50 are supported by this server
+2023-01-17 19:58:42	--	There are 0 users and 16 invisible on 2 servers
+2023-01-17 19:58:42	--	7 IRC Operators online
+2023-01-17 19:58:42	--	5 channels formed
+2023-01-17 19:58:42	--	I have 9 clients and 1 servers
+2023-01-17 19:58:42	--	Current local users: 9  Max: 13
+2023-01-17 19:58:42	--	Current global users: 16  Max: 20
+2023-01-17 19:58:42	--	Highest connection count: 14 (13 clients) (598 connections received)
+2023-01-17 19:58:42	--	- hacker.sx Message of the Day -
+2023-01-17 19:58:42	--	- Welcome to hacker.sx ircd
+2023-01-17 19:58:42	--	End of /MOTD command.
+2023-01-17 19:58:42	--	User mode [+i] by Abyss
+2023-01-17 19:58:42	--	NickServ (services@services.host): This nickname is registered and protected.  If it is your
+2023-01-17 19:58:42	--	NickServ (services@services.host): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2023-01-17 19:58:42	--	NickServ (services@services.host): please choose a different nick.
+2023-01-17 19:58:43	--	NickServ (services@services.host): Password accepted - you are now recognized.
+2023-01-17 19:58:43	--	User mode [+r] by Abyss
+2023-01-17 20:18:12	--	hacker.sx: *** Looking up your hostname
+2023-01-17 20:18:12	--	hacker.sx: *** Checking Ident
+2023-01-17 20:18:12	--	hacker.sx: *** Couldn't look up your hostname
+2023-01-17 20:18:17	--	hacker.sx: *** No Ident response
+2023-01-17 20:18:18	--	Welcome to the hacker.sx Internet Relay Chat Network Abyss!~Abyss@31.171.154.166
+2023-01-17 20:18:18	--	Your host is hacker.sx[0.0.0.0/6667], running version hybrid-1:8.2.38+dfsg.1-2
+2023-01-17 20:18:18	--	This server was created February 28 2021 at 12:22:17+0000
+2023-01-17 20:18:18	--	hacker.sx hybrid-1:8.2.38+dfsg.1-2 BDFGHXRSWacdefgijklnopqrswy bchiklmnoprstuveCIKLMNORST bkloveIh
+2023-01-17 20:18:18	--	BOT=B CALLERID CASEMAPPING=ascii DEAF=D KICKLEN=180 MODES=6 PREFIX=(ohv)@%+ STATUSMSG=@%+ EXCEPTS INVEX NICKLEN=15 NETWORK=hacker.sx MAXLIST=beI:100 are supported by this server
+2023-01-17 20:18:18	--	MAXTARGETS=4 CHANTYPES=# CHANLIMIT=#:25 CHANNELLEN=50 TOPICLEN=300 CHANMODES=beI,k,l,cimnprstuCKLMNORST EXTBAN=$,acjmnorstuz ELIST=CMNTU SAFELIST AWAYLEN=180 KNOCK MONITOR=50 are supported by this server
+2023-01-17 20:18:18	--	There are 0 users and 16 invisible on 2 servers
+2023-01-17 20:18:18	--	7 IRC Operators online
+2023-01-17 20:18:18	--	5 channels formed
+2023-01-17 20:18:18	--	I have 9 clients and 1 servers
+2023-01-17 20:18:18	--	Current local users: 9  Max: 13
+2023-01-17 20:18:18	--	Current global users: 16  Max: 20
+2023-01-17 20:18:18	--	Highest connection count: 14 (13 clients) (599 connections received)
+2023-01-17 20:18:18	--	- hacker.sx Message of the Day -
+2023-01-17 20:18:18	--	- Welcome to hacker.sx ircd
+2023-01-17 20:18:18	--	End of /MOTD command.
+2023-01-17 20:18:18	--	User mode [+i] by Abyss
+2023-01-17 20:18:18	--	NickServ (services@services.host): This nickname is registered and protected.  If it is your
+2023-01-17 20:18:18	--	NickServ (services@services.host): nick, type /msg NickServ IDENTIFY password.  Otherwise,
+2023-01-17 20:18:18	--	NickServ (services@services.host): please choose a different nick.
+2023-01-17 20:18:19	--	NickServ (services@services.host): Password accepted - you are now recognized.
+2023-01-17 20:18:19	--	User mode [+r] by Abyss

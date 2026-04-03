@@ -1,0 +1,21 @@
+[warning]	2026-04-03 15:18:40.881540[Thread 0x00007f1de6ecdec0]:Failed to load to hints.cereal. File does not exists. /home/amit/.config/OrcaSlicer/user/hints.cereal
+[error]	2026-04-03 15:18:41.792442[Thread 0x00007f1d26ffe6c0]:Unable to open connection to spacenavd
+[error]	2026-04-03 15:18:42.573867[Thread 0x00007f1de6ecdec0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-04-03 15:18:43.004146[Thread 0x00007f1de6ecdec0]:03:18:43 PM: Warning: Error running JavaScript: Unsupported result type
+[warning]	2026-04-03 15:18:43.058741[Thread 0x00007f1de6ecdec0]:03:18:43 PM: Warning: Error running JavaScript: Unsupported result type
+[warning]	2026-04-03 15:18:43.063347[Thread 0x00007f1de6ecdec0]:03:18:43 PM: Warning: Error running JavaScript: Unsupported result type
+[warning]	2026-04-03 15:18:43.066126[Thread 0x00007f1de6ecdec0]:03:18:43 PM: Warning: Error running JavaScript: Unsupported result type
+[error]	2026-04-03 15:18:44.590762[Thread 0x00007f1de6ecdec0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-04-03 15:18:44.842248[Thread 0x00007f1de6ecdec0]:03:18:44 PM: Warning: Error running JavaScript: Unsupported result type
+[error]	2026-04-03 15:19:21.889666[Thread 0x00007f1de6ecdec0]:calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2026-04-03 15:19:21.907611[Thread 0x00007f1de6ecdec0]:get_version, get_version not supported,return 00.00.00.00!
+[warning]	2026-04-03 15:19:23.606571[Thread 0x00007f1de6ecdec0]:03:19:23 PM: Warning: Error running JavaScript: Unsupported result type
+[error]	2026-04-03 15:20:45.768155[Thread 0x00007f1de6ecdec0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2026-04-03 15:26:38.405298[Thread 0x00007f1de6ecdec0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2026-04-03 15:28:46.077143[Thread 0x00007f1de6ecdec0]:Decompresing of archive did not retrieve all files. Expected files: 1 Decopressed files: 0
+[error]	2026-04-03 15:43:48.728722[Thread 0x00007f1de6ecdec0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2026-04-03 15:45:32.193234[Thread 0x00007f1de6ecdec0]:tree_sel_change_delayedcan not find page with current selection 
+[warning]	2026-04-03 15:46:49.282898[Thread 0x00007f1d033ff6c0]:Influence area could not be increased! Data about the Influence area: Radius: 1349954 at layer: 107 NextTarget: 107 Distance to top: 37 Elephant foot increases 0 use_min_xy_dist false to buildplate true gracious true safe true until move 0 
+ Parent 0x7f1b94323318: Radius: 1349954 at layer: 108 NextTarget: 108 Distance to top: 36 Elephant foot increases 0  use_min_xy_dist false to buildplate true gracious true safe true until move 0
+[error]	2026-04-03 15:50:08.003991[Thread 0x00007f1de6ecdec0]:tree_sel_change_delayedcan not find page with current selection 
+[error]	2026-04-03 15:50:17.428795[Thread 0x00007f1de6ecdec0]:tree_sel_change_delayedcan not find page with current selection 

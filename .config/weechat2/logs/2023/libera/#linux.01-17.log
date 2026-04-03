@@ -1,0 +1,51 @@
+2023-01-17 17:56:00	▬▬▶	MosterAbyss (amit) (~amit@171.61.105.170) has joined #linux
+2023-01-17 17:56:00	--	Topic for #linux is "Welcome to #linux! Help & support for any Linux distribution or related topic -- Rules: https://linux.chat/linux-on-libera/channel-rules/ -- Pastebin: https://paste.linux.chat/ -- Website: https://linux.chat -- @linux.social on Mastodon: https://linux.social/invite/zc2Gj5r8 -- Need an op? !ops <reason> or join #linux-ops"
+2023-01-17 17:56:00	--	Topic set by nkukard on Thu, 29 Dec 2022 21:27:41
+2023-01-17 17:56:00	--	Channel #linux: 2112 nicks (0 ops, 0 voices, 2112 normals)
+2023-01-17 17:56:02	--	Channel created on Wed, 19 May 2021 17:43:34
+2023-01-17 17:56:40	akik	systemctl restart systemd-udevd
+2023-01-17 17:56:44	n1	already ran that but no luck
+2023-01-17 17:56:53	▬▬▶	jatt (Jhair Tocancipá Triana) (~jatt@93.189.156.11) has joined #linux
+2023-01-17 17:57:00	▬▬▶	plantman2 (realname) (~plantman@2601:405:4680:1b0:38ee:de9b:96b6:c880) has joined #linux
+2023-01-17 17:57:01	--	jatt has identified as jatt
+2023-01-17 17:57:01	--	jatt (~jatt@93.189.156.11) has changed host to ~jatt@user/jatt
+2023-01-17 17:57:05	akik	check for syntax errors
+2023-01-17 17:57:28	▬▬▶	rundown [defjam] (rundown) (~defjam@2a02:c7e:2807:b900:6c7a:2207:d06b:87cb) has joined #linux
+2023-01-17 17:58:02	▬▬▶	jadenlian [jadenlian] (jadenlian) (~jadenlian@user/jadenlian) has joined #linux
+2023-01-17 17:58:08	n1	the line is very simple
+2023-01-17 17:58:10	n1	ACTION=="add", SUBSYSTEM="input", ATTR{name}="Keychron K6" RUN+="touch /tmp/keychron"
+2023-01-17 17:58:42	akik	SUBSYSTEM=="input" ?
+2023-01-17 17:59:10	 *	Helenah lix the subsystem
+2023-01-17 17:59:17	akik	dirty
+2023-01-17 17:59:28	n1	what should be there?
+2023-01-17 17:59:33	akik	two =
+2023-01-17 18:00:06	n1	damn
+2023-01-17 18:00:18	◀▬▬	spare (~s74i3v5k2@user/spareproject) has left #linux
+2023-01-17 18:00:40	◀▬▬	solarsparq (~quassel@143.244.60.185) has quit (Ping timeout: 260 seconds)
+2023-01-17 18:00:47	Helenah	Yes, why are you specifying operators between some of the values and keys but not others?
+2023-01-17 18:00:50	▬▬▶	infiniteT (...) (~infiniteT@31-209-41-159.cust.bredband2.com) has joined #linux
+2023-01-17 18:01:13	▬▬▶	solarsparq [solarsparq] (solarsparq) (~quassel@138.199.42.160) has joined #linux
+2023-01-17 18:01:14	◀▬▬	Blu3L085T3R (~Thunderbi@2a01:cb19:89a5:2e00:e41d:97ba:5109:150c) has quit (Ping timeout: 256 seconds)
+2023-01-17 18:01:19	n1	ACTION=="add", SUBSYSTEM=="input", ATTR{name}=="Keychron K6", RUN+="touch /tmp/keychron"
+2023-01-17 18:01:26	◀▬▬	infiniteT (~infiniteT@31-209-41-159.cust.bredband2.com) has quit (Remote host closed the connection)
+2023-01-17 18:01:28	n1	current rule but still no luck
+2023-01-17 18:01:54	n1	Helenah: isn't the name a good criteria?
+2023-01-17 18:01:59	◀▬▬	laocid (~laocid@gateway/tor-sasl/laocid) has quit (Ping timeout: 255 seconds)
+2023-01-17 18:02:30	akik	n1: did you get "Keychron K6" from udev?
+2023-01-17 18:03:24	▬▬▶	nightstrike [nightstrike] (nightstrike) (uid487@id-487.uxbridge.irccloud.com) has joined #linux
+2023-01-17 18:03:41	◀▬▬	ExeciN (~ExeciN@user/nicexe) has quit (Remote host closed the connection)
+2023-01-17 18:04:00	▬▬▶	ExeciN [nicexe] ([https://web.libera.chat] ExeciN) (~ExeciN@user/nicexe) has joined #linux
+2023-01-17 18:04:15	nightstrike	Is there a tool out there that lets me easily run a specific process where a particular directory is COW in memory?
+2023-01-17 18:04:37	▬▬▶	lsd|2 [lsd|2] (KVIrc 5.0.1 Aria http://kvirc.net/) (~kvirc@cpc140240-melt3-2-0-cust92.12-1.cable.virginm.net) has joined #linux
+2023-01-17 18:05:02	▬▬▶	llh [llh] (llh) (~UPP@user/llh) has joined #linux
+2023-01-17 18:05:20	n1	akik: yes https://imgur.com/a/ooqj0FN
+2023-01-17 18:05:55	◀▬▬	plantman2 (~plantman@2601:405:4680:1b0:38ee:de9b:96b6:c880) has quit (Ping timeout: 260 seconds)
+2023-01-17 18:06:03	n1	^ output from "sudo udevadm info -ap /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0/bluetooth/hci0/hci0:8/0005:05AC:024F.0023/input/input63"
+2023-01-17 18:06:23	▬▬▶	solarsparq_ [solarsparq] (solarsparq) (~quassel@143.244.60.165) has joined #linux
+2023-01-17 18:06:30	◀▬▬	solarsparq (~quassel@138.199.42.160) has quit (Ping timeout: 260 seconds)
+2023-01-17 18:06:44	◀▬▬	jmike (~Jmike@208.167.255.166) has quit (Ping timeout: 260 seconds)
+2023-01-17 18:07:02	n1	also...someone uses ATTR and someone ATTRS - whats the difference?
+2023-01-17 18:07:26	◀▬▬	quazimodo (~quazimodo@122-199-39-221.ip4.superloop.com) has quit (Ping timeout: 268 seconds)
+2023-01-17 18:07:29	akik	The singular form of udev criteria (KERNEL, SUBSYSTEM, DRIVER, ATTR) only match the device being added, whereas the plural forms (including ATTRS) match the device being added or any of its parent devices.
+2023-01-17 18:07:33	akik	google is good
+2023-01-17 18:07:56	akik	sorry i don't know what's wrong. i've only written a couple of rules

@@ -1,0 +1,16 @@
+{
+    "compatible_printers": [
+        "Creality Ender-3 S1 Pro 0.4 nozzle"
+    ],
+    "filament_max_volumetric_speed": [
+        "19"
+    ],
+    "filament_settings_id": [
+        "AK PLA"
+    ],
+    "from": "User",
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "AK PLA",
+    "version": "2.3.1.10"
+}
